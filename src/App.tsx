@@ -1,11 +1,14 @@
-import { Box, Grid, GridItem, Show } from "@chakra-ui/react";
+import { Grid, GridItem } from "@chakra-ui/react";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <Grid templateAreas={`"nav" "main" "footer"`}>
       <GridItem area="nav" bg="green">
-        Nav
+        <NavBar />
       </GridItem>
 
       <GridItem area="main" bg="yellow">
