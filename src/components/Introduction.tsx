@@ -11,6 +11,7 @@ import header from "../assets/header-bg.jpg";
 import image from "../assets/hero-img.jpg";
 import { Image } from "@chakra-ui/react";
 import { Show, Hide } from "@chakra-ui/react";
+import styles from "./Introduction.module.css";
 
 const Introduction = () => {
   return (
@@ -33,7 +34,7 @@ const Introduction = () => {
         zIndex="11"
         flexWrap="wrap"
       >
-        <Box width="100%" marginLeft="10vw" marginRight="auto">
+        <Box className={styles.container}>
           <Heading
             as="h3"
             fontSize="4xl"

@@ -1,0 +1,52 @@
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+@media only screen and  (max-width: 1920px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        width: 100%;
+        max-width:80%;
+     
+    }
+    }
+    
+@media only screen and  (max-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        
+        width: 100%;
+        max-width:85%;
+     
+    }
+    }
+    
+    @media only screen and  (max-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        width: 100%;
+        max-width: 90%;
+    }
+    }
+    @media only screen and  (max-width: 992px){
+    .container, .container-lg, .container-md, .container-sm {
+        width: 100%;
+        max-width:95%;
+    }
+    }
+    
+    @media only screen and  (max-width: 576px){
+    .container, .container-sm {
+        width: 100%;
+        max-width: 100%
+    }
+    }
+
+
+
+
+
+    
+    
