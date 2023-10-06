@@ -10,35 +10,53 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon, AddIcon } from "@chakra-ui/icons";
 import NavigationLinks from "./NavigationLinks";
+import styles from "./Introduction.module.css";
 
-const Links = ["Home", "About", "Skills", "Projects", "Cirtifications"];
+const Links = [
+  "Home",
+  "About",
+  "Skills",
+  "Projects",
+  "Cirtifications",
+  "Resume",
+
+  "|",
+
+  "+251924957735",
+];
 
 const NavBar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
-      <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
-        <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
-          <IconButton
-            size={"md"}
-            icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
-            aria-label={"Open Menu"}
-            display={{ md: "none" }}
-            onClick={isOpen ? onClose : onOpen}
-          />
-          <HStack spacing={8} alignItems={"center"}>
-            <Box>Logo</Box>
-            <HStack
-              as={"nav"}
-              spacing={4}
-              display={{ base: "none", md: "flex" }}
-            >
-              {Links.map((link) => (
-                <NavigationLinks key={link}>{link}</NavigationLinks>
-              ))}
-            </HStack>
+      <Box className={styles.container} height="80px">
+        <Flex alignItems={"center"} justifyContent={"space-between"}>
+          <Flex>
+            <IconButton
+              size={"md"}
+              icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
+              aria-label={"Open Menu"}
+              display={{ lg: "none" }}
+              onClick={isOpen ? onClose : onOpen}
+            />
+            <HStack spacing={10} paddingX="20px" textTransform="uppercase">
+              <Box>Logo</Box>
+            </HStack>{" "}
+          </Flex>
+
+          <HStack
+            textTransform="uppercase"
+            fontFamily="Roboto,sans-serif"
+            spacing={6}
+            justifyContent="end"
+            as={"nav"}
+            display={{ base: "none", md: "none", lg: "flex" }}
+          >
+            {Links.map((link) => (
+              <NavigationLinks key={link}>{link}</NavigationLinks>
+            ))}
           </HStack>
-          <Flex alignItems={"center"}>
+          {/* <Flex alignItems={"center"}>
             <Button
               variant={"solid"}
               colorScheme={"teal"}
@@ -48,11 +66,11 @@ const NavBar = () => {
             >
               Action
             </Button>
-          </Flex>
+          </Flex> */}
         </Flex>
 
         {isOpen ? (
-          <Box pb={4} display={{ md: "none" }}>
+          <Box pb={4} display={{ lg: "none" }} bg="#070d1b" width="100vw">
             <Stack as={"nav"} spacing={4}>
               {Links.map((link) => (
                 <NavigationLinks key={link}>{link}</NavigationLinks>

@@ -8,11 +8,18 @@ function App() {
   return (
     <>
       <Grid templateAreas={`"nav" "main" "footer"`}>
-        <GridItem area="nav">
+        <GridItem
+          area="nav"
+          bg="#070d1be6"
+          position="fixed"
+          top="0"
+          zIndex="200"
+          width="100%"
+        >
           <NavBar />
         </GridItem>
 
-        <GridItem area="main">
+        <GridItem area="main" top="80px" position="relative">
           <Introduction />
         </GridItem>
 
