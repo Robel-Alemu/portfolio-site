@@ -3,6 +3,7 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import Introduction from "./components/Introduction";
 import SocialMediaContainer from "./components/SocialMediaContainer";
+import AboutHeading from "./components/AboutHeading";
 
 function App() {
   return (
@@ -19,14 +20,15 @@ function App() {
           <NavBar />
         </GridItem>
 
-        <GridItem area="main" top="80px" position="relative">
+        <GridItem area="main" top="80px" position="relative" bg=" #0a101e">
           <SocialMediaContainer />
           <Introduction />
+          <AboutHeading />
         </GridItem>
 
-        <GridItem area="footer" bg="red">
+        {/* <GridItem area="footer" bg="red">
           Footer
-        </GridItem>
+        </GridItem> */}
       </Grid>
     </>
   );

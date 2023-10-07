@@ -27,6 +27,13 @@
     box-shadow: 0 5px 10px #fec64450;
  
 }
+.divider{
+    height:100px
+}
+@media screen and (max-width: 991px){
+.divider{ height: 80px;}
+}
+
 
 @media only screen and  (max-width: 1920px){
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
