@@ -1,0 +1,85 @@
+.socialLink {
+    display: flex;
+    
+}
+.socialButton:hover,.socialIcon:hover,.iconName:hover{
+    text-decoration: none;
+}
+
+.socialLink .socialButton {
+    border-radius: 50px;
+    background-color: #070d1b;
+    border: 0.5px solid #3f4551;
+    transition: all .4s ease;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+ 
+}
+.socialLink .socialButton:hover, .socialLink .socialButton.active {
+    padding-right: 15px;
+}
+.socialLink .socialButton:not(:last-child) {
+    margin-right: 20px;
+}
+
+.socialLink .socialButton .socialIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    transition: all .4s ease;
+}
+.socialLink .socialButton:hover .iconName, .socialLink .socialButton.active .iconName {
+    max-width: 140px;
+}
+
+.socialLink .socialButton:hover, .socialLink .socialButton.active {
+    padding-right: 15px;
+}
+.socialLink .socialButton .iconName {
+    font-weight: 600;
+    color: #fdfeff;
+    overflow: hidden;
+    max-width: 0;
+    transition: all .5s ease;
+}
+
+.socialContainer {
+    background-color: #101624;
+    border: 1px solid #232935;
+    border-right: 0;
+    border-radius: 50px 0 0 50px;
+    height: 80px;
+    width: 448px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    padding-left: 12px;
+    right: 100%;
+
+}
+:where(*, *::before, *::after) {
+    border-width: 0;
+    border-style: solid;
+    box-sizing: border-box;
+    word-wrap: initial !important;
+}
+.socialLink .socialButton .socialIcon  > *{
+    scale: 1.5;
+    opacity: 60%;
+}
+.iconProperty{
+    color:"white";
+    width:"1em";
+    height:"1em";
+
+}
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
