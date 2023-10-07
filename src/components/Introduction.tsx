@@ -16,7 +16,13 @@ import SocialMediaContainer from "./SocialMediaContainer";
 
 const Introduction = () => {
   return (
-    <Box backgroundImage={header} height="850px" position="relative">
+    <Box
+      backgroundImage={header}
+      height="850px"
+      position="relative"
+      backgroundPosition="center center"
+      backgroundSize="cover"
+    >
       {/* <Box
           // marginLeft="10%"
           // maxWidth="1140px"
@@ -38,12 +44,13 @@ const Introduction = () => {
         <Box className={styles.container}>
           <Heading
             as="h3"
-            fontSize="4xl"
+            fontSize="30px"
             lineHeight="35px"
-            fontWeight="thin"
+            fontWeight="300"
             color="#FEC544"
+            fontFamily="inter"
           >
-            Hello, I'm
+            Hello, I’m
           </Heading>
           <Heading lineHeight="none" as="h1" fontSize="9xl" color="#FDFEFF">
             Robel <br /> Alemu
@@ -52,12 +59,13 @@ const Introduction = () => {
           <Heading
             marginY={7}
             color="#A9ADB8"
-            fontWeight="medium"
-            fontSize="4xl"
+            fontWeight="normal"
+            opacity="70%"
+            fontSize="36px"
           >
             Front-End Developer
           </Heading>
-          <Button>Contact Me</Button>
+          <Button className={styles.contactButton}>Contact Me</Button>
         </Box>
       </Box>
       {/* </Box> */}
