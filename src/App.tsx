@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Introduction from "./components/Introduction";
 import SocialMediaContainer from "./components/SocialMediaContainer";
 import AboutHeading from "./components/AboutHeading";
+import About from "./components/About";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <SocialMediaContainer />
           <Introduction />
           <AboutHeading />
+          <About />
         </GridItem>
 
         {/* <GridItem area="footer" bg="red">

@@ -1,7 +1,7 @@
 import { Box, Heading, Hide } from "@chakra-ui/react";
 import React from "react";
 import styles from "./Introduction.module.css";
-import style2 from "./About.module.css";
+import style2 from "./About2.module.css";
 const AboutHeading = () => {
   return (
     <Box className={styles.container}>
