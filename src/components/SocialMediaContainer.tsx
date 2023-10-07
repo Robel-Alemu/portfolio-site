@@ -5,6 +5,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { ImGithub } from "react-icons/im";
 import styles from "./SocialMedia.module.css";
 import SocialMediaLinks from "./SocialMediaLinks";
+import { useState } from "react";
 
 const SocialMediaContainer = () => {
   return (
@@ -16,7 +17,7 @@ const SocialMediaContainer = () => {
         className={styles.socialContainer}
       >
         <Box className={styles.socialLink}>
-          <SocialMediaLinks iconName="Linkedin">
+          <SocialMediaLinks isActive={true} iconName="Linkedin">
             <FaLinkedin className={styles.iconProperty} />
           </SocialMediaLinks>
           <SocialMediaLinks iconName="Twitter">

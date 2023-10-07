@@ -58,7 +58,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  
+    position: absolute;
+    bottom: 30px;
     padding-left: 12px;
     right: 100%;
 
@@ -78,8 +79,4 @@
     width:"1em";
     height:"1em";
 
-}
-a:hover {
-    text-decoration: none;
-    color: inherit;
 }

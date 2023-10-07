@@ -12,6 +12,7 @@ import image from "../assets/hero-img.jpg";
 import { Image } from "@chakra-ui/react";
 import { Show, Hide } from "@chakra-ui/react";
 import styles from "./Introduction.module.css";
+import SocialMediaContainer from "./SocialMediaContainer";
 
 const Introduction = () => {
   return (
@@ -75,6 +76,7 @@ const Introduction = () => {
             height="100%"
             src={image}
           ></Image>
+          <SocialMediaContainer />
         </Box>
       </Hide>
     </Box>
