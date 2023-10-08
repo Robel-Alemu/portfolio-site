@@ -3,12 +3,10 @@ import {
   Flex,
   HStack,
   IconButton,
-  Button,
   useDisclosure,
-  useColorModeValue,
   Stack,
 } from "@chakra-ui/react";
-import { HamburgerIcon, CloseIcon, AddIcon } from "@chakra-ui/icons";
+import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import NavigationLinks from "./NavigationLinks";
 import styles from "./Introduction.module.css";
 

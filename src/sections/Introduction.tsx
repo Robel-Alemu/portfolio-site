@@ -1,16 +1,8 @@
-import {
-  Box,
-  Button,
-  Container,
-  Flex,
-  HStack,
-  Heading,
-  VStack,
-} from "@chakra-ui/react";
+import { Box, Button, Heading } from "@chakra-ui/react";
 import header from "../assets/header-bg.jpg";
 import image from "../assets/hero-img.jpg";
 import { Image } from "@chakra-ui/react";
-import { Show, Hide } from "@chakra-ui/react";
+import { Hide } from "@chakra-ui/react";
 import styles from "./Introduction.module.css";
 import SocialMediaContainer from "../components/SocialMediaContainer";
 
