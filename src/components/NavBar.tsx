@@ -8,7 +8,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import NavigationLinks from "./NavigationLinks";
-import styles from "./Introduction.module.css";
+import styles from "../styles/Introduction.module.css";
 
 const Links = [
   "Home",

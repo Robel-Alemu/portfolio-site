@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { ImGithub } from "react-icons/im";
-import styles from "./SocialMedia.module.css";
+import styles from "../styles/SocialMedia.module.css";
 import SocialMediaLinks from "./SocialMediaLinks";
 
 const SocialMediaContainer = () => {

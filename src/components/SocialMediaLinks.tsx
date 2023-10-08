@@ -1,6 +1,6 @@
 import { Box, Text, Link } from "@chakra-ui/react";
 
-import styles from "./SocialMedia.module.css";
+import styles from "../styles/SocialMedia.module.css";
 import { useState } from "react";
 
 interface Props {

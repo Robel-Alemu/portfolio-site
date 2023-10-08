@@ -8,8 +8,8 @@ import {
   Button,
 } from "@chakra-ui/react";
 import image from "../assets/about.jpg";
-import styles from "./About.module.css";
-import classes from "./Introduction.module.css";
+import styles from "../styles/About.module.css";
+import classes from "../styles/Introduction.module.css";
 
 const About = () => {
   return (
