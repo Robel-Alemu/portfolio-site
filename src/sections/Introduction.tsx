@@ -12,7 +12,7 @@ import image from "../assets/hero-img.jpg";
 import { Image } from "@chakra-ui/react";
 import { Show, Hide } from "@chakra-ui/react";
 import styles from "./Introduction.module.css";
-import SocialMediaContainer from "./SocialMediaContainer";
+import SocialMediaContainer from "../components/SocialMediaContainer";
 
 const Introduction = () => {
   return (

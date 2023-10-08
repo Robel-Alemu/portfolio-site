@@ -1,10 +1,10 @@
 import { Grid, GridItem } from "@chakra-ui/react";
 import "./App.css";
 import NavBar from "./components/NavBar";
-import Introduction from "./components/Introduction";
+import Introduction from "./sections/Introduction";
 import SocialMediaContainer from "./components/SocialMediaContainer";
 import AboutHeading from "./components/AboutHeading";
-import About from "./components/About";
+import About from "./sections/About";
 
 function App() {
   return (
