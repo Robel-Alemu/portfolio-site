@@ -1,13 +1,16 @@
 import { Box, Heading, Hide } from "@chakra-ui/react";
 import styles from "../styles/Introduction.module.css";
 import style2 from "../styles/About2.module.css";
-const AboutHeading = () => {
+interface Props {
+  heading: string;
+}
+const AboutHeading = ({ heading }: Props) => {
   return (
     <Box className={styles.container}>
       <Box className={style2.heading}>
-        <Heading className={style2.title}>About Me</Heading>
+        <Heading className={style2.title}>{heading}</Heading>
         <Hide below="md">
-          <Heading className={style2.subtitle}>About Me</Heading>
+          <Heading className={style2.subtitle}>{heading}</Heading>
         </Hide>
       </Box>
       <Box></Box>
