@@ -64,7 +64,7 @@ const Introduction = () => {
           </Box>
         </Box>
         {/* </Box> */}
-        <Hide below="md">
+        <Hide below="lg">
           <Box
             position="absolute"
             top="0"
