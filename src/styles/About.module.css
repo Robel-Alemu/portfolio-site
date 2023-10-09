@@ -14,7 +14,14 @@
         width: 50%;
     }
 }
-.imageWrap {
+
+@media screen and (max-width: 576px){
+   .insideRow {
+    margin-left: 0;
+
+   }
+}
+ .imageWrap {
     padding-right: 30px;
 }
 
