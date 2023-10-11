@@ -5,6 +5,7 @@ import Introduction from "./sections/Introduction";
 import SocialMediaContainer from "./components/SocialMediaContainer";
 import SectionHeading from "./components/SectionHeading";
 import About from "./sections/About";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Introduction />
           <SectionHeading heading="About Me" />
           <About />
+          <Skills />
         </GridItem>
 
         {/* <GridItem area="footer" bg="red">
