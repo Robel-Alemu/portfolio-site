@@ -27,4 +27,22 @@
   
    }
 
+   .divider2{
+    height: 30px !important;
+}
+@media screen and (max-width: 991px){
+.divider2 {
+    height: 30px !important;
+}
+}
+
+.divider {
+    height: 100px;
+  }
+  @media screen and (max-width: 991px) {
+    .divider {
+      height: 80px;
+    }
+  }
+
 

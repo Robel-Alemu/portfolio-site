@@ -5,7 +5,8 @@ import Introduction from "./sections/Introduction";
 import SocialMediaContainer from "./components/SocialMediaContainer";
 import SectionHeading from "./components/SectionHeading";
 import About from "./sections/About";
-import Skills from "./components/Skills";
+import SkillCards from "./components/SkillsCards";
+import Skills from "./sections/Skills";
 
 function App() {
   return (
