@@ -1,8 +1,5 @@
-/* .card :hover {
-    transform: scale(1.1);
-  
-    box-shadow: 5px 5px #fec64450; 
-} */
+
+
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }

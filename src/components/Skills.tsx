@@ -26,7 +26,7 @@ const Skills = () => {
   };
   return (
     <Container>
-      <Box margin="auto" maxWidth="80%">
+      <Box margin="auto" maxWidth="82%">
         <SimpleGrid
           //   marginX="5%"
           columns={{ sm: 2, md: 3, lg: 4, xl: 4 }}
@@ -55,9 +55,11 @@ const Skills = () => {
             </Card>
           ))}
         </SimpleGrid>
-        <Button transition="all .10s ease" onClick={handleLoad}>
-          {LoadMore}
-        </Button>
+        <Box display="flex" justifyContent="center" padding="40px">
+          <Button paddingX="40px" paddingY="25px" onClick={handleLoad}>
+            {LoadMore}
+          </Button>
+        </Box>
       </Box>
     </Container>
   );
