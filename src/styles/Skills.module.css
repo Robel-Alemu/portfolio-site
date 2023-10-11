@@ -1,0 +1,17 @@
+/* .card :hover {
+    transform: scale(1.1);
+  
+    box-shadow: 5px 5px #fec64450; 
+} */
+
+.card { 
+    transition: all .4s ease
+    
+    }
+    
+    .card:hover{
+        transform: scale(1.1);
+     box-shadow: 3px 3px #fec64480;
+     color: #fec544
+  
+   }
