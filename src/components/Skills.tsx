@@ -55,7 +55,9 @@ const Skills = () => {
             </Card>
           ))}
         </SimpleGrid>
-        <Button onClick={handleLoad}>{LoadMore}</Button>
+        <Button transition="all .10s ease" onClick={handleLoad}>
+          {LoadMore}
+        </Button>
       </Box>
     </Container>
   );
