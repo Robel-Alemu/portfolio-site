@@ -5,12 +5,25 @@ import {
   CardBody,
   SimpleGrid,
   Heading,
+  Button,
 } from "@chakra-ui/react";
 import styles from "../styles/Skills.module.css";
 import Container from "./Container";
 import skills from "../utils/skills";
+import { useState } from "react";
 
 const Skills = () => {
+  const [display, setDisplay] = useState(false);
+  const [LoadMore, setLoadMore] = useState("Load More");
+  const handleLoad = () => {
+    if (display) {
+      setDisplay(false);
+      setLoadMore("Load More");
+    } else {
+      setDisplay(true);
+      setLoadMore("Show Less");
+    }
+  };
   return (
     <Container>
       <Box margin="auto" maxWidth="80%">
@@ -23,7 +36,11 @@ const Skills = () => {
           justifyContent="space-around"
         >
           {skills.map((skill) => (
-            <Card paddingBottom="20px" className={styles.card}>
+            <Card
+              paddingBottom="20px"
+              className={styles.card}
+              display={!display ? skill.display : "flex"}
+            >
               <CardBody
                 padding="25px"
                 display="flex"
@@ -38,6 +55,7 @@ const Skills = () => {
             </Card>
           ))}
         </SimpleGrid>
+        <Button onClick={handleLoad}>{LoadMore}</Button>
       </Box>
     </Container>
   );
