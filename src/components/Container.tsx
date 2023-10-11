@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react";
-import styles from "../styles/Introduction.module.css";
+import styles from "../styles/SharedStyle.module.css";
 import React from "react";
 interface Props {
   children: React.ReactNode;

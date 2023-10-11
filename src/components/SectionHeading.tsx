@@ -1,5 +1,5 @@
 import { Box, Heading, Hide } from "@chakra-ui/react";
-import styles from "../styles/Introduction.module.css";
+import styles from "../styles//SharedStyle.module.css";
 import style2 from "../styles/About2.module.css";
 interface Props {
   heading: string;

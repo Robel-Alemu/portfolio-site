@@ -3,7 +3,7 @@ import header from "../assets/header-bg.jpg";
 import image from "../assets/hero-img.jpg";
 import { Image } from "@chakra-ui/react";
 import { Hide } from "@chakra-ui/react";
-import styles from "../styles/Introduction.module.css";
+import styles from "../styles/SharedStyle.module.css";
 import SocialMediaContainer from "../components/SocialMediaContainer";
 
 const Introduction = () => {
