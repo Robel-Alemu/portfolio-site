@@ -8,7 +8,6 @@ import {
   Button,
 } from "@chakra-ui/react";
 import styles from "../styles/Skills.module.css";
-import Container from "./Container";
 import skills from "../utils/skills";
 import { useState } from "react";
 
@@ -27,11 +26,9 @@ const SkillCards = () => {
   return (
     <Box margin="auto" maxWidth="82%">
       <SimpleGrid
-        //   marginX="5%"
         columns={{ sm: 2, md: 3, lg: 4, xl: 4 }}
         spacing={10}
         paddingY="5"
-        //   overflow={"hidden"}
         justifyContent="space-around"
       >
         {skills.map((skill) => (

@@ -1,5 +1,4 @@
 import { Box, Text, Link } from "@chakra-ui/react";
-
 import styles from "../styles/SocialMedia.module.css";
 import { useState } from "react";
 

@@ -9,8 +9,6 @@ import {
 } from "@chakra-ui/react";
 import image from "../assets/about.jpg";
 import styles from "../styles/About.module.css";
-import classes from "../styles/Introduction.module.css";
-import Container from "../components/Container";
 
 const AboutContent = () => {
   return (
@@ -20,11 +18,9 @@ const AboutContent = () => {
         <Box className={styles.insideRow}>
           <Box className={styles.imageWrap}>
             <Image
-              //   width="100%"
               objectFit="cover"
               minHeight="550px"
               maxWidth="100%^"
-              //   height="100%"
               src={image}
             ></Image>
           </Box>

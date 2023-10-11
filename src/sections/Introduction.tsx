@@ -12,22 +12,12 @@ const Introduction = () => {
       <Box
         backgroundImage={header}
         height="850px"
-        // height={{ xl: "850px", lg: "850px", md: "850px", sm: "680px" }}
         position="relative"
         backgroundPosition="center center"
         backgroundSize="cover"
       >
-        {/* <Box
-          // marginLeft="10%"
-          // maxWidth="1140px"
-          display="flex"
-          justifyContent="space-between"
-          alignItems="center"
-        > */}
         <Box
           height="710px"
-          //   height={{ xl: "710px", lg: "710px", md: "710px", sm: "630px" }}
-          // marginTop={20}
           position="relative"
           overflow="hidden"
           display="flex"
@@ -63,7 +53,7 @@ const Introduction = () => {
             <Button className={styles.contactButton}>Contact Me</Button>
           </Box>
         </Box>
-        {/* </Box> */}
+
         <Hide below="lg">
           <Box
             position="absolute"

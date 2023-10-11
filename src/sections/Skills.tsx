@@ -1,4 +1,3 @@
-import React from "react";
 import Container from "../components/Container";
 import SkillCards from "../components/SkillsCards";
 import SectionHeading from "../components/SectionHeading";
