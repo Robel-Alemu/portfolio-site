@@ -3,7 +3,7 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import Introduction from "./sections/Introduction";
 import SocialMediaContainer from "./components/SocialMediaContainer";
-import AboutHeading from "./components/AboutHeading";
+import SectionHeading from "./components/SectionHeading";
 import About from "./sections/About";
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         <GridItem area="main" top="80px" position="relative" bg=" #0a101e">
           <SocialMediaContainer />
           <Introduction />
-          <AboutHeading />
+          <SectionHeading heading="About Me" />
           <About />
         </GridItem>
 

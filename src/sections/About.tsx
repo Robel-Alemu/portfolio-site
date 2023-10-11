@@ -22,6 +22,7 @@ const About = () => {
               //   width="100%"
               objectFit="cover"
               minHeight="550px"
+              maxWidth="100%^"
               //   height="100%"
               src={image}
             ></Image>

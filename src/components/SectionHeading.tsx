@@ -4,7 +4,7 @@ import style2 from "../styles/About2.module.css";
 interface Props {
   heading: string;
 }
-const AboutHeading = ({ heading }: Props) => {
+const SectionHeading = ({ heading }: Props) => {
   return (
     <Box className={styles.container}>
       <Box className={style2.heading}>
@@ -18,4 +18,4 @@ const AboutHeading = ({ heading }: Props) => {
   );
 };
 
-export default AboutHeading;
+export default SectionHeading;
