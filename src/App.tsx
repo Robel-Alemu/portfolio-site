@@ -1,4 +1,4 @@
-import { Grid, GridItem } from "@chakra-ui/react";
+import { Container, Grid, GridItem } from "@chakra-ui/react";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Introduction from "./sections/Introduction";
@@ -8,6 +8,7 @@ import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Portfolio from "./sections/Portfolio";
 import PortfolioDescription from "./components/PortfolioDescription";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
@@ -33,9 +34,11 @@ function App() {
           <Portfolio />
         </GridItem>
 
-        {/* <GridItem area="footer" bg="red">
-          Footer
-        </GridItem> */}
+        <GridItem area="footer" bg=" #0a101e">
+          <Container>
+            <ContactForm />
+          </Container>
+        </GridItem>
       </Grid>
     </>
   );
