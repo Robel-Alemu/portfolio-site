@@ -7,6 +7,7 @@ import SectionHeading from "./components/SectionHeading";
 import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Portfolio from "./sections/Portfolio";
+import PortfolioDescription from "./components/PortfolioDescription";
 
 function App() {
   return (
