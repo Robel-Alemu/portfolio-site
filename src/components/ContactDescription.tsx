@@ -12,7 +12,13 @@ const ContactDescription = () => {
         nulla tincidunt id faucibus sed suscipit feugiat.
       </Text>
       <HStack>
-        <IconButton aria-label="Search database" isRound icon={<EmailIcon />} />
+        <IconButton
+          size="lg"
+          variant="outline"
+          aria-label="Search database"
+          isRound
+          icon={<EmailIcon />}
+        />
         <VStack>
           <Text>Email</Text>
           <Text>robelalemu2372@gmail.com</Text>
@@ -20,14 +26,26 @@ const ContactDescription = () => {
         </VStack>
       </HStack>
       <HStack>
-        <IconButton aria-label="Search database" isRound icon={<PhoneIcon />} />
+        <IconButton
+          size="lg"
+          variant="outline"
+          aria-label="Search database"
+          isRound
+          icon={<PhoneIcon />}
+        />
         <VStack>
           <Text>Phone</Text>
           <Text>+251924957735</Text>
         </VStack>
       </HStack>
       <HStack>
-        <IconButton aria-label="Search database" isRound icon={<EmailIcon />} />
+        <IconButton
+          size="lg"
+          variant="outline"
+          aria-label="Search database"
+          isRound
+          icon={<EmailIcon />}
+        />
         <VStack>
           <Text>Address</Text>
           <Text>2661 High Meadow Lane Bear Creek,</Text>
