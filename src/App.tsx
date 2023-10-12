@@ -6,6 +6,7 @@ import SocialMediaContainer from "./components/SocialMediaContainer";
 import SectionHeading from "./components/SectionHeading";
 import About from "./sections/About";
 import Skills from "./sections/Skills";
+import Portfolio from "./sections/Portfolio";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <SectionHeading heading="About Me" />
           <About />
           <Skills />
+          <Portfolio />
         </GridItem>
 
         {/* <GridItem area="footer" bg="red">
