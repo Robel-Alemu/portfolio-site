@@ -8,15 +8,14 @@ const PortfolioCards = () => {
   return (
     <SimpleGrid
       className={styles.row}
-      columns={{ sm: 2, md: 3, lg: 2, xl: 3 }}
+      columns={{ sm: 1, md: 2, lg: 2, xl: 2 }}
       spacing={10}
       //   paddingX={10}
       paddingY="5"
       justifyContent="space-around"
     >
       {portfolio.map((project) => (
-        <Box>
-          {/* <PortfolioDescription /> */}
+        <Box paddingRight={10}>
           <Box className={styles.content}>
             <Box className={styles.overlay}></Box>
             <Image className={styles.contentImage} src={project.image} />
@@ -26,6 +25,7 @@ const PortfolioCards = () => {
               <Heading>{project.name}</Heading>
             </Box>
           </Box>
+          <PortfolioDescription description={project.description} />
         </Box>
       ))}
       {/* 

@@ -7,9 +7,9 @@ import styles from "../styles/Skills.module.css";
 const Skills = () => {
   return (
     <Container>
-      <Box className={styles.divider}></Box>
+      {/* <Box className={styles.divider}></Box> */}
       <SectionHeading heading="Skills" />
-      <Box className={styles.divider2}></Box>
+
       <SkillCards />
     </Container>
   );

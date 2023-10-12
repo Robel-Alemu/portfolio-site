@@ -27,7 +27,7 @@ function App() {
         <GridItem area="main" top="80px" position="relative" bg=" #0a101e">
           <SocialMediaContainer />
           <Introduction />
-          <SectionHeading heading="About Me" />
+
           <About />
           <Skills />
           <Portfolio />

@@ -5,7 +5,12 @@ interface Props {
   children: React.ReactNode;
 }
 const Container = ({ children }: Props) => {
-  return <Box className={styles.container}>{children}</Box>;
+  return (
+    <Box className={styles.container}>
+      <Box className={styles.divider}></Box>
+      {children}
+    </Box>
+  );
 };
 
 export default Container;

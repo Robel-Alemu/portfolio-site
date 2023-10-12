@@ -51,7 +51,7 @@ const SkillCards = () => {
           </Card>
         ))}
       </SimpleGrid>
-      <Box display="flex" justifyContent="center" padding="40px">
+      <Box display="flex" justifyContent="center" paddingTop="40px">
         <Button paddingX="40px" paddingY="25px" onClick={handleLoad}>
           {LoadMore}
         </Button>

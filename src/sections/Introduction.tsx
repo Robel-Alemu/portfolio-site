@@ -73,7 +73,7 @@ const Introduction = () => {
           </Box>
         </Hide>
       </Box>
-      <Box className={styles.divider}></Box>
+      {/* <Box className={styles.divider}></Box> */}
     </>
   );
 };

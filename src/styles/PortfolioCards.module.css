@@ -256,7 +256,7 @@
 
   
 .projectDetails {
-    position: relative;
+    /* position: relative; */
     border-radius: 3px;
     transition: all .4s ease;
     background-color: #101624;

@@ -110,3 +110,11 @@
     max-width: 550px;
   }
 }
+.divider2{
+  height: 40px !important;
+}
+@media screen and (max-width: 991px){
+.divider2 {
+  height: 30px !important;
+}
+}

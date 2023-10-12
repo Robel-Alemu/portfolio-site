@@ -13,7 +13,7 @@ import styles from "../styles/About.module.css";
 const AboutContent = () => {
   return (
     <Box>
-      <Box className={styles.divider}></Box>
+      {/* <Box className={styles.divider}></Box> */}
       <Box className={styles.row}>
         <Box className={styles.insideRow}>
           <Box className={styles.imageWrap}>
