@@ -9,6 +9,7 @@ import Skills from "./sections/Skills";
 import Portfolio from "./sections/Portfolio";
 import PortfolioDescription from "./components/PortfolioDescription";
 import ContactForm from "./components/ContactForm";
+import Contact from "./sections/Contact";
 
 function App() {
   return (
@@ -35,9 +36,10 @@ function App() {
         </GridItem>
 
         <GridItem area="footer" bg=" #0a101e">
-          <Container>
+          {/* <Container>
             <ContactForm />
-          </Container>
+          </Container> */}
+          <Contact />
         </GridItem>
       </Grid>
     </>

@@ -5,12 +5,13 @@ import {
   Heading,
   Input,
   Textarea,
+  VStack,
 } from "@chakra-ui/react";
 import styles from "../styles/About.module.css";
 const ContactForm = () => {
   return (
-    <>
-      <Heading>Just say Hello</Heading>
+    <VStack>
+      <Heading textAlign="left">Just say Hello</Heading>
       <FormControl isRequired>
         {/* <FormLabel>First name</FormLabel> */}
         <Input
@@ -48,7 +49,7 @@ const ContactForm = () => {
           Send Message
         </Button>
       </FormControl>
-    </>
+    </VStack>
   );
 };
 
