@@ -1,8 +1,10 @@
-import image from "../assets/hero-img.jpg";
+import gamehub from "../assets/gamehub.jpg";
+import trivia from "../assets/trivia.jpg";
+import bridge from "../assets/bridge.png";
 const portfolio = [
   {
     name: "Game Discovery Platform",
-    image: image,
+    image: gamehub,
     techs: ["React", "Chakra UI", "CSS", "RAWG API"],
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!",
@@ -10,7 +12,7 @@ const portfolio = [
   },
   {
     name: "Trivia Quiz App",
-    image: image,
+    image: trivia,
     techs: ["React", "Chakra UI", "CSS", "Open Triva API"],
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!",
@@ -18,19 +20,19 @@ const portfolio = [
   },
   {
     name: "Bridge The Gap Ethiopia",
-    image: image,
+    image: bridge,
     techs: ["Wordpress", "Elementor"],
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!",
     address: "https://http://bridgethegapethiopia.com/",
   },
-  {
-    name: "Student Monitoring System",
-    image: image,
-    techs: ["React", "Node.js", "Express.js", "BootStrap", "Firebase", ""],
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!",
-    address: "#",
-  },
+  //   {
+  //     name: "Student Monitoring System",
+  //     image: gamehub,
+  //     techs: ["React", "Node.js", "Express.js", "BootStrap", "Firebase", ""],
+  //     description:
+  //       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!",
+  //     address: "#",
+  //   },
 ];
 export default portfolio;
