@@ -1,4 +1,4 @@
-import { Container, Grid, GridItem } from "@chakra-ui/react";
+import { Box, Container, Grid, GridItem } from "@chakra-ui/react";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Introduction from "./sections/Introduction";
@@ -33,14 +33,15 @@ function App() {
           <About />
           <Skills />
           <Portfolio />
+          <Box bg="#070d1b">
+            <Contact />
+          </Box>
         </GridItem>
-
+        {/* 
         <GridItem area="footer" bg=" #0a101e">
-          {/* <Container>
-            <ContactForm />
-          </Container> */}
-          <Contact />
-        </GridItem>
+        
+        
+        </GridItem> */}
       </Grid>
     </>
   );
