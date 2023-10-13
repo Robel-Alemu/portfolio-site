@@ -1,13 +1,5 @@
 import { AddIcon, EmailIcon, PhoneIcon } from "@chakra-ui/icons";
-import {
-  Heading,
-  VStack,
-  Text,
-  HStack,
-  IconButton,
-  Box,
-  Flex,
-} from "@chakra-ui/react";
+import { Text, VStack, HStack, IconButton, Box, Flex } from "@chakra-ui/react";
 import React from "react";
 import SocialMediaContainer from "./SocialMediaContainer";
 import styles from "../styles/Contact.module.css";
@@ -16,8 +8,10 @@ import { FaHouse } from "react-icons/fa6";
 const ContactDescription = () => {
   return (
     <Box>
-      <Heading paddingBottom={5}>Contact Info</Heading>
-      <Text className={styles.description}>
+      <Text fontSize="30px" paddingBottom={3}>
+        Contact Info
+      </Text>
+      <Text color="#a9adb8" className={styles.description}>
         Always available for freelancing if the right project comes along, Feel
         free to contact me.
       </Text>
@@ -32,7 +26,7 @@ const ContactDescription = () => {
         />
         <Box paddingLeft={7}>
           <Text className={styles.contact}>Email</Text>
-          <Text>robelalemu2372@gmail.com</Text>
+          <Text color="#a9adb8">robelalemu2372@gmail.com</Text>
           {/* <Text>robela149@gmail.com</Text> */}
         </Box>
       </Flex>
@@ -47,7 +41,7 @@ const ContactDescription = () => {
         />
         <Box paddingLeft={7}>
           <Text className={styles.contact}>Phone</Text>
-          <Text>+251924957735</Text>
+          <Text color="#a9adb8">+251924957735</Text>
         </Box>
       </Flex>
       <Flex paddingBottom={7}>
@@ -61,14 +55,14 @@ const ContactDescription = () => {
         />
         <Box paddingLeft={7}>
           <Text className={styles.contact}>Address</Text>
-          <Text>2661 High Meadow Lane Bear Creek,</Text>
-          <Text>Olancha, KY 93544</Text>
+          <Text color="#a9adb8">2661 High Meadow Lane Bear Creek,</Text>
+          <Text color="#a9adb8">Olancha, KY 93544</Text>
         </Box>
       </Flex>
 
-      <Heading fontSize="larger" paddingBottom={2}>
+      <Text fontSize="larger" paddingBottom={2}>
         Visite my social profile and get connected
-      </Heading>
+      </Text>
       <SocialMediaContainer section="contact" />
     </Box>
   );

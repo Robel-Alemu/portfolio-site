@@ -1,8 +1,7 @@
 import {
   Box,
-  Heading,
-  ListItem,
   Text,
+  ListItem,
   Image,
   UnorderedList,
   Button,
@@ -30,12 +29,8 @@ const AboutContent = () => {
           <Box className={styles.descriptionWrap}>
             <Box className={styles.descriptionContent}>
               <Box className={styles.contentContainer}>
-                <Heading className={styles.name}>
-                  Hi There! I'm Robel ALemu
-                </Heading>
-                <Heading className={styles.subtitle}>
-                  Front-End Developer
-                </Heading>
+                <Text className={styles.name}>Hi There! I’m Robel Alemu</Text>
+                <Text className={styles.subtitle}>Front-End Developer</Text>
                 <Box className={styles.aboutText}>
                   <Text color="#a9adb8">
                     I am a Visual Designer with a strong focus on digital

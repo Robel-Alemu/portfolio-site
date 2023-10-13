@@ -1,4 +1,4 @@
-import { Box, Button, Heading } from "@chakra-ui/react";
+import { Box, Button, Heading, Text } from "@chakra-ui/react";
 import header from "../assets/header-bg.jpg";
 import image from "../assets/hero-img.jpg";
 import { Image } from "@chakra-ui/react";
@@ -27,21 +27,27 @@ const Introduction = () => {
           flexWrap="wrap"
         >
           <Box className={styles.container}>
-            <Heading
-              as="h3"
+            <Text
+              // as="h3"
               fontSize="30px"
-              lineHeight="35px"
+              lineHeight="60px"
               fontWeight="300"
               color="#FEC544"
-              fontFamily="inter"
+              // fontFamily="inter"
             >
               Hello, I’m
-            </Heading>
-            <Heading lineHeight="none" as="h1" fontSize="9xl" color="#FDFEFF">
+            </Text>
+            <Text
+              lineHeight="none"
+              fontSize="120px"
+              fontWeight="900"
+              color="#FDFEFF"
+              letterSpacing={4}
+            >
               Robel <br /> Alemu
-            </Heading>
+            </Text>
 
-            <Heading
+            <Text
               marginY={7}
               color="#A9ADB8"
               fontWeight="normal"
@@ -49,7 +55,7 @@ const Introduction = () => {
               fontSize="36px"
             >
               Front-End Developer
-            </Heading>
+            </Text>
             <Button className={styles.contactButton}>Contact Me</Button>
           </Box>
         </Box>

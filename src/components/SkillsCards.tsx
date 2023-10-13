@@ -4,7 +4,7 @@ import {
   Image,
   CardBody,
   SimpleGrid,
-  Heading,
+  Text,
   Button,
 } from "@chakra-ui/react";
 import styles from "../styles/Skills.module.css";
@@ -45,9 +45,9 @@ const SkillCards = () => {
             >
               <Image src={skill.logo} />
             </CardBody>
-            <Heading textAlign="center" fontSize="medium">
+            <Text textAlign="center" fontSize="medium">
               {skill.name}
-            </Heading>
+            </Text>
           </Card>
         ))}
       </SimpleGrid>

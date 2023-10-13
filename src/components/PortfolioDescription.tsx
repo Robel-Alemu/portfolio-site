@@ -8,7 +8,7 @@ interface Props {
 const PortfolioDescription = ({ description }: Props) => {
   return (
     <Box className={styles.projectDetails}>
-      <Text>{description}</Text>
+      <Text color="#a9adb8">{description}</Text>
       <Box className={styles.quote}></Box>
     </Box>
   );

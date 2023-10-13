@@ -1,4 +1,4 @@
-import { Badge, Box, Heading, Icon, Image, SimpleGrid } from "@chakra-ui/react";
+import { Badge, Box, Text, Icon, Image, SimpleGrid } from "@chakra-ui/react";
 import React from "react";
 import styles from "../styles/PortfolioCards.module.css";
 import image from "../assets/hero-img.jpg";
@@ -22,7 +22,7 @@ const PortfolioCards = () => {
             <Box
               className={`${styles.details} ${styles.fadeInTop} ${styles.fadeInRight}`}
             >
-              <Heading>{project.name}</Heading>
+              <Text>{project.name}</Text>
             </Box>
           </Box>
           <PortfolioDescription description={project.description} />
@@ -37,8 +37,8 @@ const PortfolioCards = () => {
           <Box
             className={`${styles.details} ${styles.fadeInTop} ${styles.fadeInRight}`}
           >
-            <Heading>Title</Heading>
-            <Heading>Title</Heading>
+            <Text>Title</Text>
+            <Text>Title</Text>
           </Box>
         </Box>
       </Box>
@@ -51,8 +51,8 @@ const PortfolioCards = () => {
           <Box
             className={`${styles.details} ${styles.fadeInTop} ${styles.fadeInRight}`}
           >
-            <Heading>Title</Heading>
-            <Heading>Title</Heading>
+            <Text>Title</Text>
+            <Text>Title</Text>
           </Box>
         </Box>
         <Badge></Badge>
@@ -66,8 +66,8 @@ const PortfolioCards = () => {
           <Box
             className={`${styles.details} ${styles.fadeInTop} ${styles.fadeInRight}`}
           >
-            <Heading>Title</Heading>
-            <Heading>Title</Heading>
+            <Text>Title</Text>
+            <Text>Title</Text>
           </Box>
         </Box>
       </Box>
@@ -79,8 +79,8 @@ const PortfolioCards = () => {
           <Box
             className={`${styles.details} ${styles.fadeInTop} ${styles.fadeInRight}`}
           >
-            <Heading>Title</Heading>
-            <Heading>Title</Heading>
+            <Text>Title</Text>
+            <Text>Title</Text>
           </Box>
         </Box>
       </Box>
@@ -92,8 +92,8 @@ const PortfolioCards = () => {
           <Box
             className={`${styles.details} ${styles.fadeInTop} ${styles.fadeInRight}`}
           >
-            <Heading>Title</Heading>
-            <Heading>Title</Heading>
+            <Text>Title</Text>
+            <Text>Title</Text>
           </Box>
         </Box>
       </Box>
@@ -105,8 +105,8 @@ const PortfolioCards = () => {
           <Box
             className={`${styles.details} ${styles.fadeInTop} ${styles.fadeInRight}`}
           >
-            <Heading>Title</Heading>
-            <Heading>Title</Heading>
+            <Text>Title</Text>
+            <Text>Title</Text>
           </Box>
         </Box>
       </Box> */}

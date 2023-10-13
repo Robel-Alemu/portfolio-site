@@ -8,7 +8,10 @@ const Footer = () => {
       alignItems="center"
       padding="20px"
     >
-      <Text> © 2023. Built by Robel Alemu. All right reserved.</Text>
+      <Text color="#a9adb8">
+        {" "}
+        © 2023. Built by Robel Alemu. All right reserved.
+      </Text>
     </Box>
   );
 };

@@ -3,7 +3,7 @@ import {
   Button,
   FormControl,
   FormLabel,
-  Heading,
+  Text,
   Input,
   Textarea,
   VStack,
@@ -12,7 +12,9 @@ import styles from "../styles/About.module.css";
 const ContactForm = () => {
   return (
     <Box>
-      <Heading paddingBottom={7}>Get in touch</Heading>
+      <Text fontSize="30px" paddingBottom={5}>
+        Get in touch
+      </Text>
       <FormControl isRequired>
         {/* <FormLabel>First name</FormLabel> */}
         <Input
