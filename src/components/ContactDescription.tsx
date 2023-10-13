@@ -16,10 +16,10 @@ import { FaHouse } from "react-icons/fa6";
 const ContactDescription = () => {
   return (
     <Box>
-      <Heading>Contact Info</Heading>
+      <Heading paddingBottom={5}>Contact Info</Heading>
       <Text className={styles.description}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula
-        nulla tincidunt id faucibus sed suscipit feugiat.
+        Always available for freelancing if the right project comes along, Feel
+        free to contact me.
       </Text>
       <Flex paddingBottom={7}>
         <IconButton
