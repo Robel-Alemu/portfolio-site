@@ -5,15 +5,21 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { ImGithub } from "react-icons/im";
 import styles from "../styles/SocialMedia.module.css";
 import SocialMediaLinks from "./SocialMediaLinks";
-
-const SocialMediaContainer = () => {
+interface Props {
+  section: string;
+}
+const SocialMediaContainer = ({ section }: Props) => {
   return (
     <>
       <Box
         data-aos="fade-right"
         data-aos-delay="1000"
         data-aos-duration="1000"
-        className={styles.socialContainer}
+        className={
+          section === "introduction"
+            ? styles.socialContainer
+            : styles.socialContainerContact
+        }
       >
         <Box className={styles.socialLink}>
           <SocialMediaLinks isActive={true} iconName="Linkedin">

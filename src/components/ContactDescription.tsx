@@ -55,7 +55,7 @@ const ContactDescription = () => {
       <Heading fontSize="larger">
         Visite my social profile and get connected
       </Heading>
-      <SocialMediaContainer />
+      <SocialMediaContainer section="contact" />
     </VStack>
   );
 };

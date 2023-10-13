@@ -31,6 +31,7 @@ function App() {
           <Introduction />
 
           <About />
+
           <Skills />
           <Portfolio />
           <Box bg="#070d1b">

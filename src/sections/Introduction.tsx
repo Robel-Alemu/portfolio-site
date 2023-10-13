@@ -69,7 +69,7 @@ const Introduction = () => {
               height="100%"
               src={image}
             ></Image>
-            <SocialMediaContainer />
+            <SocialMediaContainer section="introduction" />
           </Box>
         </Hide>
       </Box>

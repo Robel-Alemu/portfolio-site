@@ -15,9 +15,11 @@ const ContactForm = () => {
       <FormControl isRequired>
         {/* <FormLabel>First name</FormLabel> */}
         <Input
+          className={styles.input}
           placeholder="Your Name"
           marginBottom="30px"
           paddingY={7}
+          //   variant="filled"
           bg="#101624"
         />
 
