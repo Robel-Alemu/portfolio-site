@@ -6,14 +6,16 @@ interface Props {
   children: React.ReactNode;
   iconName: string;
   isActive?: boolean;
+  link: string;
 }
-const SocialMediaLinks = ({ children, iconName, isActive }: Props) => {
+const SocialMediaLinks = ({ children, iconName, isActive, link }: Props) => {
   const [isLinkedinActive, setIsLinkdenActive] = useState(true);
 
   const active = isLinkedinActive && isActive ? styles.active : "";
   return (
     <>
       <Link
+        href={link}
         _hover={{ textDecoration: "none" }}
         onMouseEnter={() => setIsLinkdenActive(false)}
         textDecoration="none"

@@ -22,16 +22,29 @@ const SocialMediaContainer = ({ section }: Props) => {
         }
       >
         <Box className={styles.socialLink}>
-          <SocialMediaLinks isActive={true} iconName="Linkedin">
+          <SocialMediaLinks
+            isActive={true}
+            iconName="Linkedin"
+            link="www.linkedin.com/in/robel-alemu-98a34321a"
+          >
             <FaLinkedin className={styles.iconProperty} />
           </SocialMediaLinks>
-          <SocialMediaLinks iconName="Twitter">
+          <SocialMediaLinks
+            iconName="Twitter"
+            link="https://x.com/RobelJap?t=HD0iDXeh1dH1u_0TTXzFgQ&s=09"
+          >
             <FaXTwitter className={styles.iconProperty} />
           </SocialMediaLinks>
-          <SocialMediaLinks iconName="Instagram">
+          <SocialMediaLinks
+            iconName="Instagram"
+            link="https://instagram.com/robel_jap?igshid=NzZlODBkYWE4Ng=="
+          >
             <FaInstagramSquare className={styles.iconProperty} />
           </SocialMediaLinks>
-          <SocialMediaLinks iconName="Github">
+          <SocialMediaLinks
+            iconName="Github"
+            link="https://github.com/Robel-Alemu"
+          >
             <ImGithub className={styles.iconProperty} />
           </SocialMediaLinks>
         </Box>
