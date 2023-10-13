@@ -27,7 +27,6 @@ function App() {
         </GridItem>
 
         <GridItem area="main" top="80px" position="relative" bg=" #0a101e">
-          <SocialMediaContainer />
           <Introduction />
 
           <About />

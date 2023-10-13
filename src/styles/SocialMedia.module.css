@@ -74,10 +74,10 @@
     width: 448px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     
     bottom: 30px;
-    padding-left: 12px;
+    /* padding-left: 12px; */
     right: 100%;
 
 }
@@ -89,7 +89,7 @@
 }
 .socialLink .socialButton .socialIcon  > *{
     scale: 1.5;
-    opacity: 60%;
+    opacity: 90%;
 }
 .iconProperty{
     color:"white";

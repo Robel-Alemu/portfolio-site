@@ -1,62 +1,76 @@
-import { EmailIcon, PhoneIcon } from "@chakra-ui/icons";
-import { Heading, VStack, Text, HStack, IconButton } from "@chakra-ui/react";
+import { AddIcon, EmailIcon, PhoneIcon } from "@chakra-ui/icons";
+import {
+  Heading,
+  VStack,
+  Text,
+  HStack,
+  IconButton,
+  Box,
+  Flex,
+} from "@chakra-ui/react";
 import React from "react";
 import SocialMediaContainer from "./SocialMediaContainer";
+import styles from "../styles/Contact.module.css";
+import { FaHouse } from "react-icons/fa6";
 
 const ContactDescription = () => {
   return (
-    <VStack>
+    <Box>
       <Heading>Contact Info</Heading>
-      <Text>
+      <Text className={styles.description}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula
         nulla tincidunt id faucibus sed suscipit feugiat.
       </Text>
-      <HStack>
+      <Flex paddingBottom={7}>
         <IconButton
+          boxSize="52px"
           size="lg"
           variant="outline"
           aria-label="Search database"
           isRound
           icon={<EmailIcon />}
         />
-        <VStack>
-          <Text>Email</Text>
+        <Box paddingLeft={7}>
+          <Text className={styles.contact}>Email</Text>
           <Text>robelalemu2372@gmail.com</Text>
-          <Text>robela149@gmail.com</Text>
-        </VStack>
-      </HStack>
-      <HStack>
+          {/* <Text>robela149@gmail.com</Text> */}
+        </Box>
+      </Flex>
+      <Flex paddingBottom={7}>
         <IconButton
+          boxSize="52px"
           size="lg"
           variant="outline"
           aria-label="Search database"
           isRound
           icon={<PhoneIcon />}
         />
-        <VStack>
-          <Text>Phone</Text>
+        <Box paddingLeft={7}>
+          <Text className={styles.contact}>Phone</Text>
           <Text>+251924957735</Text>
-        </VStack>
-      </HStack>
-      <HStack>
+        </Box>
+      </Flex>
+      <Flex paddingBottom={7}>
         <IconButton
+          boxSize="52px"
           size="lg"
           variant="outline"
           aria-label="Search database"
           isRound
-          icon={<EmailIcon />}
+          icon={<FaHouse />}
         />
-        <VStack>
-          <Text>Address</Text>
+        <Box paddingLeft={7}>
+          <Text className={styles.contact}>Address</Text>
           <Text>2661 High Meadow Lane Bear Creek,</Text>
           <Text>Olancha, KY 93544</Text>
-        </VStack>
-      </HStack>
-      <Heading fontSize="larger">
+        </Box>
+      </Flex>
+
+      <Heading fontSize="larger" paddingBottom={2}>
         Visite my social profile and get connected
       </Heading>
       <SocialMediaContainer section="contact" />
-    </VStack>
+    </Box>
   );
 };
 
