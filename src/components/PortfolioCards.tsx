@@ -16,7 +16,7 @@ const PortfolioCards = () => {
     >
       {portfolio.map((project) => (
         <Box paddingRight={10}>
-          <Box className={styles.content}>
+          <Box className={styles.content} paddingBottom={2}>
             <Box className={styles.overlay}></Box>
             <Image className={styles.contentImage} src={project.image} />
             <Box
@@ -25,6 +25,17 @@ const PortfolioCards = () => {
               <Text>{project.name}</Text>
             </Box>
           </Box>
+          {project.techs.map((tech) => (
+            <Badge
+              variant="outline"
+              colorScheme="green"
+              marginRight={5}
+              paddingX="6px"
+              textTransform="capitalize"
+            >
+              {tech}
+            </Badge>
+          ))}
           <PortfolioDescription description={project.description} />
         </Box>
       ))}
