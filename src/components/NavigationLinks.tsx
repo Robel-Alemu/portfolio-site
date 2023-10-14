@@ -2,9 +2,10 @@ import { Box, useColorModeValue } from "@chakra-ui/react";
 
 interface Props {
   children: React.ReactNode;
+  id: string;
 }
-const NavigationLinks = (props: Props) => {
-  const { children } = props;
+const NavigationLinks = ({ children, id }: Props) => {
+  // const { children } = props;
   return (
     <Box
       fontSize="15px"
@@ -19,7 +20,7 @@ const NavigationLinks = (props: Props) => {
         transform: "scale(0.9)",
         bg: "none",
       }}
-      href={"#"}
+      href={id}
     >
       {children}
     </Box>

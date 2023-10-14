@@ -11,7 +11,7 @@ import {
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import NavigationLinks from "./NavigationLinks";
 import styles from "../styles/SharedStyle.module.css";
-
+import navigation from "../utils/navigation";
 const Links = [
   "Home",
   "About",
@@ -60,16 +60,20 @@ const NavBar = () => {
           textTransform="uppercase"
           display={{ base: "none", md: "none", lg: "flex" }}
         >
-          {Links.map((link) => (
-            <NavigationLinks key={link}>{link}</NavigationLinks>
+          {navigation.map((link) => (
+            <NavigationLinks id={link.address} key={link.name}>
+              {link.name}
+            </NavigationLinks>
           ))}
         </HStack>
       </Box>
       {isOpen ? (
         <Box pb={4} display={{ lg: "none" }} bg="#070d1b" width="100vw">
           <Stack as={"nav"} spacing={4}>
-            {Links.map((link) => (
-              <NavigationLinks key={link}>{link}</NavigationLinks>
+            {navigation.map((link) => (
+              <NavigationLinks id={link.address} key={link.name}>
+                {link.name}
+              </NavigationLinks>
             ))}
           </Stack>
         </Box>

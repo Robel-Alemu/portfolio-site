@@ -4,7 +4,7 @@ import SectionHeading from "../components/SectionHeading";
 
 const About = () => {
   return (
-    <Container>
+    <Container id="About">
       <SectionHeading heading="About Me" />
       <AboutContent />
     </Container>

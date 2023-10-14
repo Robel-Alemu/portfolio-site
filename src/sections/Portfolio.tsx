@@ -5,7 +5,7 @@ import SectionHeading from "../components/SectionHeading";
 
 const Portfolio = () => {
   return (
-    <Container>
+    <Container id="Portfolio">
       <SectionHeading heading="Portfolio" />
       <PortfolioCards />
     </Container>

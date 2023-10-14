@@ -3,10 +3,11 @@ import styles from "../styles/SharedStyle.module.css";
 import React from "react";
 interface Props {
   children: React.ReactNode;
+  id: string;
 }
-const Container = ({ children }: Props) => {
+const Container = ({ children, id }: Props) => {
   return (
-    <Box className={styles.container}>
+    <Box className={styles.container} id={id}>
       <Box className={styles.divider}></Box>
       {children}
     </Box>
