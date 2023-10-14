@@ -7,7 +7,7 @@ const PortfolioCards = () => {
     <SimpleGrid
       className={styles.row}
       columns={{ sm: 1, md: 2, lg: 2, xl: 2 }}
-      spacing={10}
+      spacing="50px"
       paddingY="5"
       justifyContent="space-around"
     >
@@ -27,7 +27,7 @@ const PortfolioCards = () => {
               variant="outline"
               colorScheme="green"
               marginRight={5}
-              paddingX="6px"
+              paddingX="4px"
               textTransform="capitalize"
             >
               {tech}

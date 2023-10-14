@@ -5,7 +5,7 @@ const portfolio = [
   {
     name: "Game Discovery Platform",
     image: gamehub,
-    techs: ["React", "Chakra UI", "CSS", "RAWG API"],
+    techs: ["React", "TypeScript", "Chakra UI", "CSS", "RAWG API"],
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!",
     address: "https://game-discovery-platform.vercel.app/",
@@ -13,7 +13,7 @@ const portfolio = [
   {
     name: "Trivia Quiz App",
     image: trivia,
-    techs: ["React", "Chakra UI", "CSS", "Open Triva API"],
+    techs: ["React", "TypeScript", "Chakra UI", "CSS", "Open Triva API"],
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!",
     address: "https://trivia-quiz-app-six.vercel.app/",
