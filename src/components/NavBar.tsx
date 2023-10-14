@@ -5,8 +5,11 @@ import {
   IconButton,
   useDisclosure,
   Stack,
+  Flex,
+  Hide,
+  Show,
 } from "@chakra-ui/react";
-import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
+import { HamburgerIcon, CloseIcon, PhoneIcon } from "@chakra-ui/icons";
 import NavigationLinks from "./NavigationLinks";
 import styles from "../styles/SharedStyle.module.css";
 import navigation from "../utils/navigation";
@@ -50,6 +53,15 @@ const NavBar = () => {
             </NavigationLinks>
           ))}
         </HStack>
+        <Hide below="lg">
+          <Text fontSize="smaller" opacity="60%" paddingLeft="40px">
+            |
+          </Text>
+          <Flex alignItems="center" marginLeft="40px">
+            <PhoneIcon marginRight="15px" />
+            <Text color="#FEC544"> +251934957735</Text>
+          </Flex>
+        </Hide>
       </Box>
       {isOpen ? (
         <Box pb={4} display={{ lg: "none" }} bg="#070d1b" width="100vw">

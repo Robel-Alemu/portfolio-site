@@ -11,8 +11,7 @@ const NavigationLinks = ({ children, id }: Props) => {
       as="a"
       px={2}
       py={1}
-      rounded={"md"}
-      _active={{ color: "#FEC544" }}
+      // rounded={"md"}
       _hover={{
         textDecoration: "none",
         opacity: "60%",
