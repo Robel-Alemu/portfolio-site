@@ -2,11 +2,9 @@ import {
   Box,
   Button,
   FormControl,
-  FormLabel,
   Text,
   Input,
   Textarea,
-  VStack,
 } from "@chakra-ui/react";
 import styles from "../styles/Contact.module.css";
 const ContactForm = () => {
@@ -16,13 +14,11 @@ const ContactForm = () => {
         Get in touch
       </Text>
       <FormControl isRequired>
-        {/* <FormLabel>First name</FormLabel> */}
         <Input
           className={styles.input}
           placeholder="Your Name"
           marginBottom="35px"
           paddingY={6}
-          //   variant="filled"
         />
 
         <Input

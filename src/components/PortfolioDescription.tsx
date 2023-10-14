@@ -1,7 +1,5 @@
-import { Box, Image, Text } from "@chakra-ui/react";
-import React from "react";
+import { Box, Text } from "@chakra-ui/react";
 import styles from "../styles/PortfolioCards.module.css";
-import { Container } from "react-bootstrap";
 interface Props {
   description: string;
 }

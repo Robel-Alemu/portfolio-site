@@ -1,21 +1,15 @@
-import { Box, Button, Container, Grid, GridItem } from "@chakra-ui/react";
+import { Box, Grid, GridItem } from "@chakra-ui/react";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Introduction from "./sections/Introduction";
-import SocialMediaContainer from "./components/SocialMediaContainer";
-import SectionHeading from "./components/SectionHeading";
 import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Portfolio from "./sections/Portfolio";
-import PortfolioDescription from "./components/PortfolioDescription";
-import ContactForm from "./components/ContactForm";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
-import Test from "./sections/Test";
 
 function App() {
   return (
-    // <Test />
     <Grid
       templateAreas={{
         xl: `"nav" "main"`,
@@ -44,7 +38,6 @@ function App() {
         </Box>
 
         <Footer />
-        {/* <Test /> */}
       </GridItem>
     </Grid>
   );

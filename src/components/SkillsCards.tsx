@@ -52,16 +52,7 @@ const SkillCards = () => {
         ))}
       </SimpleGrid>
       <Box display="flex" justifyContent="center" paddingTop="40px">
-        <Button
-          className={styles.loadButton}
-          // paddingX="40px"
-          // paddingY="25px"
-          onClick={handleLoad}
-
-          // bg="#101624"
-          // color="#FDFEFFs"
-          // colorScheme="gray"
-        >
+        <Button className={styles.loadButton} onClick={handleLoad}>
           {LoadMore}
         </Button>
       </Box>

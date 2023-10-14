@@ -66,8 +66,7 @@
 }
 
 .socialContainerContact {
-    /* background-color: #101624;
-    border: 1px solid #232935; */
+  
     border-right: 0;
     border-radius: 50px 0 0 50px;
     height: 80px;
@@ -77,7 +76,7 @@
     justify-content: left;
     
     bottom: 30px;
-    /* padding-left: 12px; */
+    
     right: 100%;
 
 }

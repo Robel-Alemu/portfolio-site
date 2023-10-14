@@ -1,7 +1,5 @@
-import { Badge, Box, Text, Icon, Image, SimpleGrid } from "@chakra-ui/react";
-import React from "react";
+import { Badge, Box, Text, Image, SimpleGrid } from "@chakra-ui/react";
 import styles from "../styles/PortfolioCards.module.css";
-import image from "../assets/hero-img.jpg";
 import PortfolioDescription from "./PortfolioDescription";
 import portfolio from "../utils/portfolio";
 const PortfolioCards = () => {
@@ -10,7 +8,6 @@ const PortfolioCards = () => {
       className={styles.row}
       columns={{ sm: 1, md: 2, lg: 2, xl: 2 }}
       spacing={10}
-      //   paddingX={10}
       paddingY="5"
       justifyContent="space-around"
     >
@@ -39,88 +36,6 @@ const PortfolioCards = () => {
           <PortfolioDescription description={project.description} />
         </Box>
       ))}
-      {/* 
-      <Box>
-        <PortfolioDescription />
-        <Box className={styles.content}>
-          <Box className={styles.overlay}></Box>
-          <Image className={styles.contentImage} src={image} />
-          <Box
-            className={`${styles.details} ${styles.fadeInTop} ${styles.fadeInRight}`}
-          >
-            <Text>Title</Text>
-            <Text>Title</Text>
-          </Box>
-        </Box>
-      </Box>
-
-      <Box>
-        <PortfolioDescription />
-        <Box className={styles.content}>
-          <Box className={styles.overlay}></Box>
-          <Image className={styles.contentImage} src={image} />
-          <Box
-            className={`${styles.details} ${styles.fadeInTop} ${styles.fadeInRight}`}
-          >
-            <Text>Title</Text>
-            <Text>Title</Text>
-          </Box>
-        </Box>
-        <Badge></Badge>
-      </Box>
-
-      <Box>
-        <PortfolioDescription />
-        <Box className={styles.content}>
-          <Box className={styles.overlay}></Box>
-          <Image className={styles.contentImage} src={image} />
-          <Box
-            className={`${styles.details} ${styles.fadeInTop} ${styles.fadeInRight}`}
-          >
-            <Text>Title</Text>
-            <Text>Title</Text>
-          </Box>
-        </Box>
-      </Box>
-      <Box>
-        <PortfolioDescription />
-        <Box className={styles.content}>
-          <Box className={styles.overlay}></Box>
-          <Image className={styles.contentImage} src={image} />
-          <Box
-            className={`${styles.details} ${styles.fadeInTop} ${styles.fadeInRight}`}
-          >
-            <Text>Title</Text>
-            <Text>Title</Text>
-          </Box>
-        </Box>
-      </Box>
-      <Box>
-        <PortfolioDescription />
-        <Box className={styles.content}>
-          <Box className={styles.overlay}></Box>
-          <Image className={styles.contentImage} src={image} />
-          <Box
-            className={`${styles.details} ${styles.fadeInTop} ${styles.fadeInRight}`}
-          >
-            <Text>Title</Text>
-            <Text>Title</Text>
-          </Box>
-        </Box>
-      </Box>
-      <Box>
-        <PortfolioDescription />
-        <Box className={styles.content}>
-          <Box className={styles.overlay}></Box>
-          <Image className={styles.contentImage} src={image} />
-          <Box
-            className={`${styles.details} ${styles.fadeInTop} ${styles.fadeInRight}`}
-          >
-            <Text>Title</Text>
-            <Text>Title</Text>
-          </Box>
-        </Box>
-      </Box> */}
     </SimpleGrid>
   );
 };

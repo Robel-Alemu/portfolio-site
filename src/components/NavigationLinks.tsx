@@ -1,11 +1,10 @@
-import { Box, useColorModeValue } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 
 interface Props {
   children: React.ReactNode;
   id: string;
 }
 const NavigationLinks = ({ children, id }: Props) => {
-  // const { children } = props;
   return (
     <Box
       fontSize="15px"

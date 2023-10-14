@@ -9,7 +9,6 @@ const Footer = () => {
       padding="20px"
     >
       <Text color="#a9adb8">
-        {" "}
         © 2023. Built by Robel Alemu. All right reserved.
       </Text>
     </Box>

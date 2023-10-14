@@ -1,34 +1,19 @@
 import {
   Box,
-  Flex,
   Text,
   HStack,
   IconButton,
   useDisclosure,
   Stack,
-  Center,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import NavigationLinks from "./NavigationLinks";
 import styles from "../styles/SharedStyle.module.css";
 import navigation from "../utils/navigation";
-const Links = [
-  "Home",
-  "About",
-  "Skills",
-  "Projects",
-  "Cirtifications",
-  "Resume",
-
-  "|",
-
-  "+251924957735",
-];
 
 const NavBar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
-    // <Center height="80px">
     <Box className={styles.container}>
       <Box
         display="flex"
@@ -55,7 +40,6 @@ const NavBar = () => {
           </Box>
         </Box>
         <HStack
-          // justifyContent="center"
           spacing={6}
           textTransform="uppercase"
           display={{ base: "none", md: "none", lg: "flex" }}
@@ -79,7 +63,6 @@ const NavBar = () => {
         </Box>
       ) : null}
     </Box>
-    // </Center>
   );
 };
 

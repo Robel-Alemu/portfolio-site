@@ -78,7 +78,7 @@
     margin-bottom: 14px;
     display: flex;
     padding-right: 40px;
-    /* justify-content: space-between; */
+
 }
 .listItem p:nth-child(2){
     margin-left: 60px;
@@ -95,7 +95,7 @@
     color: #070D1B !important;
     font-size: 16px !important;
     margin-top: 15px;
-    /* font-family: Roboto, sans-serif !important; */
+ 
     line-height: 1.5em !important;
     font-weight: 500 !important;
     padding: 25px 2.4em !important;
@@ -110,15 +110,7 @@
     box-shadow: 0 5px 10px #fec64450;
  
 }
-/* .input:focus-visible{
- 
-    border-color:  #fec544 !important;
-    box-shadow: 0 0 0 1px #fec544
-}
-.input:focus{
-    border: solid 1px #fec544 !important;
-    box-shadow: 0 0 0 1px #fec544
-} */
+
 
 
 

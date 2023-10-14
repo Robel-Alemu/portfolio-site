@@ -1,6 +1,5 @@
-import { AddIcon, EmailIcon, PhoneIcon } from "@chakra-ui/icons";
-import { Text, VStack, HStack, IconButton, Box, Flex } from "@chakra-ui/react";
-import React from "react";
+import { EmailIcon, PhoneIcon } from "@chakra-ui/icons";
+import { Text, IconButton, Box, Flex } from "@chakra-ui/react";
 import SocialMediaContainer from "./SocialMediaContainer";
 import styles from "../styles/Contact.module.css";
 import { FaHouse } from "react-icons/fa6";

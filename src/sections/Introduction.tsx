@@ -30,12 +30,10 @@ const Introduction = () => {
         >
           <Box className={styles.container}>
             <Text
-              // as="h3"
               fontSize="30px"
               lineHeight="60px"
               fontWeight="300"
               color="#FEC544"
-              // fontFamily="inter"
             >
               Hello, I’m
             </Text>
@@ -81,7 +79,6 @@ const Introduction = () => {
           </Box>
         </Hide>
       </Box>
-      {/* <Box className={styles.divider}></Box> */}
     </>
   );
 };

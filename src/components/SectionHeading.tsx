@@ -13,7 +13,7 @@ const SectionHeading = ({ heading }: Props) => {
           <Heading className={style2.subtitle}>{heading}</Heading>
         </Hide>
       </Box>
-      {/* <Box></Box> */}
+
       <Box className={styles.divider2}></Box>
     </Box>
   );
