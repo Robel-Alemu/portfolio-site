@@ -18,6 +18,7 @@ const Introduction = () => {
         backgroundSize="cover"
       >
         <Box
+          backgroundImage={header}
           height="710px"
           position="relative"
           overflow="hidden"

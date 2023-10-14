@@ -1,0 +1,93 @@
+.cont {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+@media screen and (min-width: 1400px){
+    .cont {
+        max-width: 1140px !important;
+    }
+}
+@media screen and (min-width: 1400px){
+    .cont {
+        max-width: 1320px !important;
+    }
+}
+@media screen and (min-width: 1200px){
+    .cont{
+        max-width: 1140px !important;
+    }
+}
+
+
+@media screen and (min-width: 992px){
+    .cont{
+        max-width: 960px !important;
+    }
+}
+@media screen and (min-width: 768px){
+    .cont{
+        max-width: 720px !important;
+    }
+}
+@media screen and (min-width: 576px){
+    .cont{
+        max-width: 540px !important;
+    }
+    
+}
+
+@media screen and (min-width: 992px){
+    .divider {
+        height: 80px !important;
+    }
+}
+.hello {
+    font-size: 30px !important;
+    margin-top: -6px !important;
+    margin-bottom: 10px !important;
+    font-weight: 300 !important;
+    color: #fec544 !important;
+}
+.name {
+    font-size: 120px !important;
+    margin-bottom: 24px !important;
+    font-weight: 900 !important;
+    color: #fdfeff !important;
+    line-height: 1 !important;
+}
+
+.title {
+    font-size: 36px !important;
+    margin-bottom: 41px !important;
+    font-weight: 300 !important;
+    color: #a9adb8 !important;
+}
+
+.contact {
+    background: #fec544 !important;
+    color: #070D1B !important;
+    font-size: 16px !important;
+    margin-top: 15px;
+    /* font-family: Roboto, sans-serif !important; */
+    line-height: 1.5em !important;
+    font-weight: 500 !important;
+    padding: 25px 2.4em !important;
+    outline: none;
+    border: none;
+    border-radius: 50px !important;
+    min-width: 150px !important;
+    transition: all 0.4s ease !important;
+  }
+  .hero {
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    height: 100% !important;
+    width: 45% !important;
+    z-index: 11 !important;
+}

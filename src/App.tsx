@@ -11,39 +11,42 @@ import PortfolioDescription from "./components/PortfolioDescription";
 import ContactForm from "./components/ContactForm";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
+import Test from "./sections/Test";
 
 function App() {
   return (
-    <>
-      <Grid templateAreas={`"nav" "main" "footer"`}>
-        <GridItem
-          area="nav"
-          bg="#070d1be6"
-          position="fixed"
-          top="0"
-          zIndex="200"
-          width="100%"
-        >
-          <NavBar />
-        </GridItem>
+    // <Test />
+    <Grid
+      templateAreas={{
+        xl: `"nav" "main"`,
+        base: `"nav" "main"`,
+        lg: `"nav" "main"`,
+        md: `"nav" "main"`,
+      }}
+      templateColumns={{
+        xl: "1fr",
+        base: "1fr",
+        lg: "1fr",
+        md: "1fr",
+      }}
+    >
+      <GridItem area="nav">
+        <NavBar />
+      </GridItem>
 
-        <GridItem area="main" top="80px" position="relative" bg=" #0a101e">
-          <Introduction />
+      <GridItem area="main">
+        <Introduction />
+        <About />
+        <Skills />
+        <Portfolio />
+        <Box bg="#070d1b">
+          <Contact />
+        </Box>
 
-          <About />
-
-          <Skills />
-          <Portfolio />
-          <Box bg="#070d1b">
-            <Contact />
-          </Box>
-          <Footer />
-          {/* <Footer /> */}
-        </GridItem>
-
-        {/* <GridItem area="footer" bg=" #0a101e"></GridItem> */}
-      </Grid>
-    </>
+        <Footer />
+        {/* <Test /> */}
+      </GridItem>
+    </Grid>
   );
 }
 

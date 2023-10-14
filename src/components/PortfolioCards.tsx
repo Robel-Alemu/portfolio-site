@@ -15,7 +15,7 @@ const PortfolioCards = () => {
       justifyContent="space-around"
     >
       {portfolio.map((project) => (
-        <Box paddingRight={10}>
+        <Box>
           <Box className={styles.content} paddingBottom={2}>
             <Box className={styles.overlay}></Box>
             <Image className={styles.contentImage} src={project.image} />

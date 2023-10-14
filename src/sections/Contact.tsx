@@ -10,7 +10,7 @@ const Contact = () => {
     <Container id="Contact">
       <SectionHeading heading="Contact Me" />
       <SimpleGrid
-        columns={{ sm: 1, md: 2, lg: 2, xl: 2 }}
+        columns={{ sm: 1, md: 1, lg: 2, xl: 2 }}
         spacing={10}
         paddingY="5"
         // justifyContent="space-around"
