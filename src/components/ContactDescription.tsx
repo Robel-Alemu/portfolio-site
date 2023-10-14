@@ -17,12 +17,13 @@ const ContactDescription = () => {
       </Text>
       <Flex paddingBottom={7}>
         <IconButton
+          className={styles.icons}
           boxSize="52px"
           size="lg"
           variant="outline"
           aria-label="Search database"
           isRound
-          icon={<EmailIcon />}
+          icon={<EmailIcon color="#A9ADB8" />}
         />
         <Box paddingLeft={7}>
           <Text className={styles.contact}>Email</Text>
@@ -32,12 +33,13 @@ const ContactDescription = () => {
       </Flex>
       <Flex paddingBottom={7}>
         <IconButton
+          className={styles.icons}
           boxSize="52px"
           size="lg"
           variant="outline"
           aria-label="Search database"
           isRound
-          icon={<PhoneIcon />}
+          icon={<PhoneIcon color="#A9ADB8" />}
         />
         <Box paddingLeft={7}>
           <Text className={styles.contact}>Phone</Text>
@@ -46,12 +48,13 @@ const ContactDescription = () => {
       </Flex>
       <Flex paddingBottom={7}>
         <IconButton
+          className={styles.icons}
           boxSize="52px"
           size="lg"
           variant="outline"
           aria-label="Search database"
           isRound
-          icon={<FaHouse />}
+          icon={<FaHouse color="#A9ADB8" />}
         />
         <Box paddingLeft={7}>
           <Text className={styles.contact}>Address</Text>

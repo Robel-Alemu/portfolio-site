@@ -46,7 +46,7 @@ const ContactForm = () => {
         />
         <Button
           marginTop="35px"
-          className={styles.downloadButton}
+          className={styles.contactButton}
           marginBottom="35px"
           type="submit"
         >
