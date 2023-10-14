@@ -8,7 +8,7 @@ import {
   Textarea,
   VStack,
 } from "@chakra-ui/react";
-import styles from "../styles/About.module.css";
+import styles from "../styles/Contact.module.css";
 const ContactForm = () => {
   return (
     <Box>
@@ -21,29 +21,28 @@ const ContactForm = () => {
           className={styles.input}
           placeholder="Your Name"
           marginBottom="35px"
-          paddingY={7}
+          paddingY={6}
           //   variant="filled"
-          bg="#101624"
         />
 
         <Input
+          className={styles.input}
           type="email"
-          placeholder="Your Name"
+          placeholder="Your Email"
           marginBottom="35px"
-          paddingY={7}
-          bg="#101624"
+          paddingY={6}
         />
         <Input
+          className={styles.input}
           placeholder="Subject"
           marginBottom="35px"
-          paddingY={7}
-          bg="#101624"
+          paddingY={6}
         />
         <Textarea
+          className={styles.input}
           placeholder="Your Comment..."
           marginBottom="10px"
           rows={6}
-          bg="#101624"
         />
         <Button
           marginTop="35px"

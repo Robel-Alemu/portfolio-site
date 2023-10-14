@@ -18,6 +18,9 @@
     -webkit-animation-duration:2s;
     -moz-animation-duration:2s;
     animation-duration:2s;
+    background-color: #101624 !important;
+    opacity: 30%;
+    color:#FDFEFF !important
 
     }
     

@@ -109,7 +109,7 @@
     box-shadow: 0 5px 10px #fec64450;
  
 }
-.input:focus-visible{
+/* .input:focus-visible{
  
     border-color:  #fec544 !important;
     box-shadow: 0 0 0 1px #fec544
@@ -117,5 +117,7 @@
 .input:focus{
     border: solid 1px #fec544 !important;
     box-shadow: 0 0 0 1px #fec544
-}
+} */
+
+
 
