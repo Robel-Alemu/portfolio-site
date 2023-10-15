@@ -1,7 +1,17 @@
-import { Badge, Box, Text, Image, SimpleGrid } from "@chakra-ui/react";
+import {
+  Badge,
+  Box,
+  Text,
+  Image,
+  SimpleGrid,
+  Flex,
+  IconButton,
+} from "@chakra-ui/react";
 import styles from "../styles/PortfolioCards.module.css";
 import PortfolioDescription from "./PortfolioDescription";
 import portfolio from "../utils/portfolio";
+import { FaGithub, FaLink } from "react-icons/fa";
+import { ExternalLinkIcon } from "@chakra-ui/icons";
 const PortfolioCards = () => {
   return (
     <SimpleGrid
@@ -22,17 +32,34 @@ const PortfolioCards = () => {
               <Text>{project.name}</Text>
             </Box>
           </Box>
-          {project.techs.map((tech) => (
-            <Badge
-              variant="outline"
-              colorScheme="green"
-              marginRight={5}
-              paddingX="4px"
-              textTransform="capitalize"
-            >
-              {tech}
-            </Badge>
-          ))}
+          <Flex justifyContent="space-between">
+            <Flex>
+              {" "}
+              {project.techs.map((tech) => (
+                <Badge
+                  variant="outline"
+                  colorScheme="green"
+                  marginRight={5}
+                  paddingX="4px"
+                  textTransform="capitalize"
+                >
+                  {tech}
+                </Badge>
+              ))}
+            </Flex>
+
+            <IconButton
+              href={project.address}
+              as="a"
+              _hover={{ transform: "scale(1.2)" }}
+              boxSize="20px"
+              size="md"
+              variant="link"
+              icon={<ExternalLinkIcon />}
+              aria-label={""}
+            />
+          </Flex>
+
           <PortfolioDescription description={project.description} />
         </Box>
       ))}
