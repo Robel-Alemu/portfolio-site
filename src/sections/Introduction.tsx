@@ -30,6 +30,7 @@ const Introduction = () => {
         >
           <Box className={styles.container}>
             <Text
+              className={styles.hello}
               fontSize="30px"
               lineHeight="60px"
               fontWeight="300"
@@ -38,6 +39,7 @@ const Introduction = () => {
               Hello, I’m
             </Text>
             <Text
+              className={styles.name}
               lineHeight="none"
               fontSize="120px"
               fontWeight="900"
@@ -48,6 +50,7 @@ const Introduction = () => {
             </Text>
 
             <Text
+              className={styles.title}
               marginY={7}
               color="#A9ADB8"
               fontWeight="normal"
@@ -56,7 +59,9 @@ const Introduction = () => {
             >
               Front-End Developer
             </Text>
-            <Button className={styles.contactButton}>Contact Me</Button>
+            <Button as="a" href="#Contact" className={styles.contactButton}>
+              Contact Me
+            </Button>
           </Box>
         </Box>
 

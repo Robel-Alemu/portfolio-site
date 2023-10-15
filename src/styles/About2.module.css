@@ -3,7 +3,20 @@
     position: relative;
     margin-top: -5px;
     margin-bottom: 41px;
+    opacity: 0; /* Initially hidden */
+  animation: revealContent 1s ease-in-out 1s forwards; /* Animation name, duration, delay */
 }
+@keyframes revealContent {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1; /* Fully revealed */
+    }
+    
+  }
+ 
+
 .heading .title {
     font-size: 24px;
     font-weight: 500;

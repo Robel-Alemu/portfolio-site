@@ -27,11 +27,20 @@
   border-radius: 50px !important;
   min-width: 150px !important;
   transition: all 0.4s ease !important;
+
+  opacity: 0;
+  transform: translateY(100%);
+  /* transition: opacity 0.5s cubic-bezier(0.42, 0, 0.58, 1), transform 0.5s cubic-bezier(0.42, 0, 0.58, 1); */
+
 }
 .contactButton:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 10px #fec64450;
 }
+
+
+
+
 .divider {
   height: 100px;
 }
@@ -117,4 +126,49 @@
 .divider2 {
   height: 30px !important;
 }
+}
+
+
+
+/* Define the initial state of the element */
+.hello {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.5s cubic-bezier(0.42, 0, 0.58, 1), transform 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.name {
+  opacity: 0;
+  transform: translateY(100%);
+transition: opacity 0.5s cubic-bezier(0.42, 0, 0.58, 1), transform 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+
+}
+
+/* Define the animation */
+@keyframes slideInFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(60%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the animation to the element when the 'animate' class is added */
+.hello {
+  animation: slideInFromBottom 1s cubic-bezier(0.42, 0, 0.58, 1) forwards;
+}
+
+.name {
+  animation: slideInFromBottom 1s cubic-bezier(0.42, 0, 0.58, 1) forwards;
+}
+.title {
+  animation: slideInFromBottom 1.5s cubic-bezier(0.42, 0, 0.58, 1) forwards;
+}
+
+.contactButton {
+  /* animation: slideInFromBottom 4s cubic-bezier(0.42, 0, 0.58, 1) forwards; */
+  animation: slideInFromBottom 1s ease-in-out 1s forwards;
 }
