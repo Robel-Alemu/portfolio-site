@@ -6,6 +6,7 @@ import {
   SimpleGrid,
   Flex,
   IconButton,
+  Tooltip,
 } from "@chakra-ui/react";
 import styles from "../styles/PortfolioCards.module.css";
 import PortfolioDescription from "./PortfolioDescription";
@@ -23,7 +24,7 @@ const PortfolioCards = () => {
     >
       {portfolio.map((project) => (
         <Box>
-          <Box className={styles.content} paddingBottom={2}>
+          <Box className={styles.content} paddingBottom={3}>
             <Box className={styles.overlay}></Box>
             <Image className={styles.contentImage} src={project.image} />
             <Box
@@ -37,6 +38,7 @@ const PortfolioCards = () => {
               {" "}
               {project.techs.map((tech) => (
                 <Badge
+                  _hover={{ transform: "scale(0.9)" }}
                   variant="outline"
                   colorScheme="green"
                   marginRight={5}
