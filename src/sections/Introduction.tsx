@@ -11,8 +11,9 @@ const Introduction = () => {
     <>
       <Box
         id="Introduction"
-        backgroundImage={header}
+        // backgroundImage={header}
         height="850px"
+        bg="#080e1e"
         position="relative"
         backgroundPosition="center center"
         backgroundSize="cover"
