@@ -40,7 +40,7 @@ const PortfolioCards = () => {
               {project.techs.map((tech) => (
                 <Badge
                   _hover={{ transform: "scale(0.9)" }}
-                  variant="outline"
+                  variant="solid"
                   colorScheme="green"
                   marginRight={5}
                   paddingX="4px"
