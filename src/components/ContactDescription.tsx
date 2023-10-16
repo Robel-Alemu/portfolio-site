@@ -57,8 +57,7 @@ const ContactDescription = () => {
         />
         <Box paddingLeft={7}>
           <Text className={styles.contact}>Address</Text>
-          <Text color="#a9adb8">2661 High Meadow Lane Bear Creek,</Text>
-          <Text color="#a9adb8">Olancha, KY 93544</Text>
+          <Text color="#a9adb8">Addis Ababa, Ethiopia</Text>
         </Box>
       </Flex>
 

@@ -59,7 +59,7 @@ const NavBar = () => {
           </Text>
           <Flex alignItems="center" marginLeft="40px">
             <PhoneIcon opacity="90%" marginRight="15px" />
-            <Text color="#FEC544"> +251934957735</Text>
+            <Text color="#FEC544"> +251&nbsp;92&nbsp;495&nbsp;7735</Text>
           </Flex>
         </Hide>
       </Box>

@@ -24,7 +24,7 @@ const portfolio = [
     techs: ["Wordpress", "Elementor"],
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!",
-    address: "https://http://bridgethegapethiopia.com/",
+    address: "https://bridgethegapethiopia.com/",
   },
   //   {
   //     name: "Student Monitoring System",

@@ -16,6 +16,7 @@ import { ExternalLinkIcon } from "@chakra-ui/icons";
 const PortfolioCards = () => {
   return (
     <SimpleGrid
+      marginBottom={10}
       className={styles.row}
       columns={{ sm: 1, md: 2, lg: 2, xl: 2 }}
       spacing="50px"
@@ -52,6 +53,7 @@ const PortfolioCards = () => {
 
             <IconButton
               href={project.address}
+              target="_blank"
               as="a"
               _hover={{ transform: "scale(1.2)" }}
               boxSize="20px"
@@ -62,7 +64,7 @@ const PortfolioCards = () => {
             />
           </Flex>
 
-          <PortfolioDescription description={project.description} />
+          {/* <PortfolioDescription description={project.description} /> */}
         </Box>
       ))}
     </SimpleGrid>
