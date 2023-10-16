@@ -1,6 +1,6 @@
 import react from "../assets/react-ff.png";
 import node from "../assets/node.png";
-import javascript from "../assets/JS.png";
+import javascript from "../assets/javascript.png";
 import typescript from "../assets/Ts.png";
 import csharp from "../assets/csharp.png";
 import wordpress from "../assets/wp.png";
