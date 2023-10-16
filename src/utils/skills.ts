@@ -9,7 +9,7 @@ import aws from "../assets/awss.png";
 import git from "../assets/git.png";
 import firebase from "../assets/firebase.png";
 import chakra from "../assets/chakra.png";
-import bootstrap from "../assets/Bootstrap2.png";
+import bootstrap from "../assets/bootstrap2.png";
 
 const skills = [
   { name: "React", logo: react, display: "flex" },
