@@ -1,5 +1,5 @@
 import gamehub from "../assets/gamehubb.png";
-import trivia from "../assets/trivia.jpg";
+import trivia from "../assets/trivianew2.jpg";
 import bridge from "../assets/bridge.png";
 
 const portfolio = [

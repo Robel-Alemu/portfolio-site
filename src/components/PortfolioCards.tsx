@@ -18,7 +18,7 @@ const PortfolioCards = () => {
     <SimpleGrid
       marginBottom={10}
       className={styles.row}
-      columns={{ sm: 1, md: 2, lg: 2, xl: 2 }}
+      columns={{ sm: 1, md: 1, lg: 1, xl: 2 }}
       spacing="50px"
       paddingY="5"
       justifyContent="space-around"
@@ -35,6 +35,7 @@ const PortfolioCards = () => {
             </Box>
           </Box>
           <Flex justifyContent="space-between">
+            {/* <SimpleGrid columns={{ sm: 1, md: 1, lg: 2, xl: 2 }}> */}
             <Flex>
               {" "}
               {project.techs.map((tech) => (
@@ -80,6 +81,7 @@ const PortfolioCards = () => {
                 aria-label={""}
               />
             </Flex>
+            {/* </SimpleGrid> */}
           </Flex>
 
           {/* <PortfolioDescription description={project.description} /> */}
