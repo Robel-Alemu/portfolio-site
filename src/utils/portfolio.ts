@@ -10,6 +10,7 @@ const portfolio = [
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!",
     address: "https://game-discovery-platform.vercel.app/",
+    github: "https://github.com/Robel-Alemu/game-discovery-platform",
   },
   {
     name: "Trivia Quiz App",
@@ -18,6 +19,7 @@ const portfolio = [
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!",
     address: "https://trivia-quiz-app-six.vercel.app/",
+    github: "https://github.com/Robel-Alemu/Trivia-Quiz-App",
   },
   {
     name: "Bridge The Gap Ethiopia",
@@ -26,6 +28,7 @@ const portfolio = [
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!",
     address: "https://bridgethegapethiopia.com/",
+    github: "",
   },
   //   {
   //     name: "Student Monitoring System",

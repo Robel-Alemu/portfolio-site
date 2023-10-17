@@ -50,18 +50,36 @@ const PortfolioCards = () => {
                 </Badge>
               ))}
             </Flex>
+            <Flex>
+              {project.github ? (
+                <IconButton
+                  paddingLeft={5}
+                  href={project.github}
+                  target="_blank"
+                  as="a"
+                  _hover={{ transform: "scale(1.2)" }}
+                  boxSize="20px"
+                  size="lg"
+                  variant="link"
+                  icon={<FaGithub />}
+                  aria-label={""}
+                />
+              ) : (
+                ""
+              )}
 
-            <IconButton
-              href={project.address}
-              target="_blank"
-              as="a"
-              _hover={{ transform: "scale(1.2)" }}
-              boxSize="20px"
-              size="md"
-              variant="link"
-              icon={<ExternalLinkIcon />}
-              aria-label={""}
-            />
+              <IconButton
+                href={project.address}
+                target="_blank"
+                as="a"
+                _hover={{ transform: "scale(1.2)" }}
+                boxSize="20px"
+                size="lg"
+                variant="link"
+                icon={<ExternalLinkIcon />}
+                aria-label={""}
+              />
+            </Flex>
           </Flex>
 
           {/* <PortfolioDescription description={project.description} /> */}
