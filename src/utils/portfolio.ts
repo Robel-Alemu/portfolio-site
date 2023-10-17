@@ -1,6 +1,7 @@
-import gamehub from "../assets/gamehub.jpg";
+import gamehub from "../assets/gamehubb.png";
 import trivia from "../assets/trivia.jpg";
 import bridge from "../assets/bridge.png";
+
 const portfolio = [
   {
     name: "Game Discovery Platform",

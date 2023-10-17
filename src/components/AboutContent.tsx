@@ -30,53 +30,30 @@ const AboutContent = () => {
             <Box className={styles.descriptionContent}>
               <Box className={styles.contentContainer}>
                 <Text className={styles.name}>Hi There! I’m Robel Alemu</Text>
-                <Text className={styles.subtitle}>Front-End Developer</Text>
+                {/* <Text className={styles.subtitle}>Front-End Developer</Text> */}
                 <Box className={styles.aboutText}>
                   <Text color="#a9adb8">
-                    I am a Visual Designer with a strong focus on digital
-                    branding. Visul design seeks to attract, inspire, create
-                    desires and otivate people to respond to messages, with a
-                    view to making a favorable impact.
+                    I am a solution-driven Front-End developer with a two-year
+                    journey in web development, valued for thriving in
+                    close-knit and collaborative workspaces. <br /> <br />
+                    Proficient in the art of React with TypeScript, JavaScript,
+                    and a strong grasp of back-end technologies like Node.js and
+                    Express.js. My passion lies in crafting innovative
+                    solutions, underpinned by unwavering dedication, an
+                    organizational flair, and natural talent for reasoning.{" "}
+                    <br />
+                    <br /> In the realm of team dynamics, I'm in my element,
+                    fostering an atmosphere of companionship. Continually
+                    broadening my skill set, I find joy in contributing to our
+                    shared success through the application of technical
+                    expertise, making every day a warm welcome to new
+                    possibilities.
+                    <br /> <br /> Eduation&nbsp; :&nbsp;HiLCoE School of
+                    computer science and Technology
                   </Text>
                 </Box>
-                <UnorderedList
-                  listStyleType="none"
-                  margin="0"
-                  padding="0"
-                  color="#a9adb8"
-                >
-                  <ListItem className={styles.listItem}>
-                    <Text>Birthday</Text>{" "}
-                    <Text>:&nbsp;&nbsp;February 12, 1998</Text>
-                  </ListItem>
-                  <ListItem className={styles.listItem}>
-                    <Text>Phone</Text> <Text>:&nbsp;&nbsp;+251924957735</Text>
-                  </ListItem>
-                  <ListItem className={styles.listItem}>
-                    <Text>Email</Text>{" "}
-                    <Text>:&nbsp;&nbsp;robelalemu2372@gmail.com</Text>
-                  </ListItem>
-                  <ListItem className={styles.listItem}>
-                    <Text>Eduation</Text>{" "}
-                    <Text>
-                      :&nbsp;&nbsp;HiLCoE School of computer science and
-                      Technology
-                    </Text>
-                  </ListItem>
-                  <ListItem className={styles.listItem}>
-                    <Text>Language</Text>
-                    <Text>:&nbsp;&nbsp;English, Amharic</Text>
-                  </ListItem>
-                  <ListItem className={styles.listItem}>
-                    <Text>Freelance</Text>
-                    <Text>:&nbsp;&nbsp;Available</Text>
-                  </ListItem>
-                  <ListItem className={styles.listItem}>
-                    <Text>Location</Text>
-                    <Text>:&nbsp;&nbsp;Addis Ababa, Ethiopia</Text>
-                  </ListItem>
-                </UnorderedList>
-                <Button marginTop="35px" className={styles.downloadButton}>
+
+                <Button marginTop="25px" className={styles.downloadButton}>
                   Download CV
                 </Button>
               </Box>
