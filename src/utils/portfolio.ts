@@ -1,4 +1,5 @@
-import gamehub from "../assets/gamehubb.png";
+import gamehub from "../assets/Group 3 (2).png";
+// import gamehub from "../assets/gamehubb.png";
 import trivia from "../assets/trivianew2.jpg";
 import bridge from "../assets/bridge.png";
 
