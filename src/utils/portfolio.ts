@@ -31,6 +31,37 @@ const portfolio = [
     address: "https://bridgethegapethiopia.com/",
     github: "",
   },
+  // {
+  //   name: "Medi Alert(Emergency Alert)",
+  //   image: gamehub,
+  //   techs: [
+  //     "React Native",
+  //     "Node.js",
+  //     "Express.js",
+  //     "BootStrap",
+  //     "PostgreSQL",
+  //     "Navigator API",
+  //     "Twilo",
+  //   ],
+  //   description:
+  //     "MediAlert is a life-saving mobile application designed to digitalize emergency health cases and connect individuals in need of urgent medical attention with the appropriate resources quickly. The app aims to streamline the emergency response process, reduce response times, and save lives by providing real-time access to medical assistance by sending alerts to health organizations and emergency contacts.",
+  //   address: "#",
+  // },
+  // {
+  //   name: "Medi Alert(Emergency Alert)",
+  //   image: gamehub,
+  //   techs: [
+  //     "Next.js",
+  //     "Node.js",
+  //     "Express.js",
+  //     "Chakra UI",
+  //     "PostgreSQL",
+  //     "Navigator API",
+  //   ],
+  //   description:
+  //     "MediAlert is a life-saving web application designed to digitalize emergency health cases and connect individuals in need of urgent medical attention with the appropriate resources quickly. The app aims to streamline the emergency response process, reduce response times, and save lives by providing real-time access to medical assistance by recieving the alerts sent from individuals with emergency cases",
+  //   address: "#",
+  // },
   //   {
   //     name: "Student Monitoring System",
   //     image: gamehub,
