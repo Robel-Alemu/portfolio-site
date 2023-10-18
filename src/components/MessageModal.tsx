@@ -21,7 +21,7 @@ const MessageModal = ({ onClose }: Props) => {
   return (
     <>
       <Modal isOpen onClose={onClose} size="xl">
-        <ModalOverlay bg="#070d1bc1" />
+        <ModalOverlay bg="rgba(0, 0, 0, 0.7)" />
         <ModalContent bg="#FDFEFF">
           <ModalHeader
             color="#FDFEFF"

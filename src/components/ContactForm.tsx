@@ -10,15 +10,18 @@ import {
 import styles from "../styles/Contact.module.css";
 import { useRef, useState } from "react";
 import MessageModal from "./MessageModal";
+import ProgressBar from "./ProgressBar";
 
 const ContactForm = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isSending, setIsSending] = useState(false);
   const nameRef = useRef<HTMLInputElement | null>(null);
   const emailRef = useRef<HTMLInputElement | null>(null);
   const subjectRef = useRef<HTMLInputElement | null>(null);
   const messageRef = useRef<HTMLTextAreaElement | null>(null);
 
   const submitHandler = (event: React.FormEvent) => {
+    setIsSending(true);
     event.preventDefault();
 
     const name = nameRef.current?.value || "";
@@ -39,17 +42,20 @@ const ContactForm = () => {
     }).then((response) => {
       console.log(response.status);
       setIsModalOpen(true);
+      setIsSending(false);
     });
   };
   // setShowModal(false);
-
+  // if (isSending) return <ProgressBar />;
   return (
     <>
+      {/* {isSending && <ProgressBar />} */}
       {isModalOpen && <MessageModal onClose={() => setIsModalOpen(false)} />}
       <Box>
         <Text fontSize="30px" paddingBottom={5}>
           Get in touch
         </Text>
+        {isSending && <ProgressBar />}
         <form onSubmit={submitHandler}>
           <FormControl isRequired>
             <Input
