@@ -7,7 +7,12 @@ interface Props {
 }
 const Container = ({ children, id }: Props) => {
   return (
-    <Box className={styles.container} id={id}>
+    <Box
+      className={
+        id === "Portfolio" ? styles.containerPortfolio : styles.container
+      }
+      id={id}
+    >
       <Box className={styles.divider}></Box>
       {children}
     </Box>

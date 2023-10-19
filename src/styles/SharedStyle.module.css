@@ -28,6 +28,18 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+.containerPortfolio
+ {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .contactButton {
   background: #fec544 !important;
   color: #070D1B !important;
@@ -76,6 +88,9 @@
 
     max-width: 61%;
   }
+  .containerPortfolio{
+    max-width: 71%;
+  }
 }
 @media screen and (min-width: 1570px) and (max-width: 1745px) {
     .container,
@@ -87,6 +102,9 @@
     .container-xxl {
   
       max-width: 70%;
+    }
+    .containerPortfolio{
+      max-width: 60%;
     }
   }
   @media screen and (min-width: 1400px) and (max-width: 1570px) {
@@ -100,14 +118,18 @@
   
       max-width: 74%;
     }
+    .containerPortfolio{
+      max-width: 84%;
+    }
   }
   
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
   .container, 
-  .containerNavBar {
+  .containerNavBar, .containerPortfolio {
     max-width: 1140px;
   }
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -118,6 +140,9 @@
   .container-sm,
   .container-xl {
     max-width: 960px;
+  }
+  .containerPortfolio{
+    max-width: 1000px;
   }
 }
 @media  screen and (min-width: 768px) and (max-width: 992px) {
@@ -133,6 +158,9 @@
     width: 100%; 
     max-width: 100%; 
   }
+  .containerPortfolio{
+    max-width: 810%;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
@@ -145,6 +173,9 @@
   .containerNavBar{
     width: 100%; 
     max-width: 100%; 
+  }
+  .containerPortfolio{
+    max-width: 650%;
   }
 }
 .divider2{

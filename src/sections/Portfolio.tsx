@@ -4,6 +4,7 @@ import PortfolioCard from "../components/PortfolioCard";
 import PortfolioCards from "../components/PortfolioCards";
 import SectionHeading from "../components/SectionHeading";
 import projects from "../utils/portfolio";
+import styles from "../styles/SharedStyle.module.css";
 
 const Portfolio = () => {
   return (
