@@ -15,6 +15,10 @@ import ProgressBar from "./ProgressBar";
 const ContactForm = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isSending, setIsSending] = useState(false);
+  const [messageResponse, setMessageResponse] = useState({
+    status: 0,
+    message: "",
+  });
   const nameRef = useRef<HTMLInputElement | null>(null);
   const emailRef = useRef<HTMLInputElement | null>(null);
   const subjectRef = useRef<HTMLInputElement | null>(null);
@@ -39,18 +43,29 @@ const ContactForm = () => {
       method: "POST",
       body: JSON.stringify(inbox),
       headers: { "Content-Type": "application/json" },
-    }).then((response) => {
-      console.log(response.status);
-      setIsModalOpen(true);
-      setIsSending(false);
-    });
+    })
+      .then((response) => {
+        console.log(response.status);
+        setMessageResponse({ ...messageResponse, status: response.status });
+        return response.json();
+      })
+      .then((data) => {
+        setMessageResponse({ ...messageResponse, message: data.message });
+        setIsModalOpen(true);
+        setIsSending(false);
+      });
   };
   // setShowModal(false);
   // if (isSending) return <ProgressBar />;
   return (
     <>
       {/* {isSending && <ProgressBar />} */}
-      {isModalOpen && <MessageModal onClose={() => setIsModalOpen(false)} />}
+      {isModalOpen && (
+        <MessageModal
+          message={messageResponse}
+          onClose={() => setIsModalOpen(false)}
+        />
+      )}
       <Box>
         <Text fontSize="30px" paddingBottom={5}>
           Get in touch

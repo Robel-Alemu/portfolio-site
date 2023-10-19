@@ -1,4 +1,5 @@
 import { CheckCircleIcon } from "@chakra-ui/icons";
+import { BiSolidMessageError } from "react-icons/bi";
 import {
   Modal,
   ModalOverlay,
@@ -11,12 +12,20 @@ import {
   Button,
   useDisclosure,
   Text,
+  IconButton,
+  FormErrorIcon,
 } from "@chakra-ui/react";
 import { FaCheckCircle } from "react-icons/fa";
+import SocialMediaContainer from "./SocialMediaContainer";
+interface MessageResponse {
+  status: number;
+  message: string;
+}
 interface Props {
   onClose: () => void;
+  message: MessageResponse;
 }
-const MessageModal = ({ onClose }: Props) => {
+const MessageModal = ({ onClose, message }: Props) => {
   //   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
@@ -29,14 +38,28 @@ const MessageModal = ({ onClose }: Props) => {
             display="flex"
             alignItems="center"
           >
-            <FaCheckCircle color="green" />
-            <Text marginLeft={3}>Message sent!</Text>
+            {message.status === 200 ? (
+              <>
+                <FaCheckCircle color="green" />
+                <Text marginLeft={3}>Message sent!</Text>
+              </>
+            ) : (
+              <>
+                <BiSolidMessageError size={25} color="red" />
+                <Text marginLeft={3}>Message Failed!</Text>
+              </>
+            )}
           </ModalHeader>
           <ModalCloseButton />
           <ModalBody paddingY={9}>
             <Heading fontSize="md" color="#000">
-              Thank you! I will be in touch shortly!
+              {message.message}
             </Heading>
+            {message.status !== 200 ? (
+              <SocialMediaContainer section="contact" />
+            ) : (
+              ""
+            )}
           </ModalBody>
 
           <ModalFooter>
