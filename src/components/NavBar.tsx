@@ -17,7 +17,7 @@ import navigation from "../utils/navigation";
 const NavBar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
-    <Box className={styles.container}>
+    <Box className={styles.containerNavBar}>
       <Box
         display="flex"
         alignItems="center"

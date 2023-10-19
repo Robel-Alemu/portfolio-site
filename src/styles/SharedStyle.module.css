@@ -13,6 +13,21 @@
   margin-right: auto;
   margin-left: auto;
 }
+.containerNavBar,
+.containerNavBar-fluid,
+.containerNavBar-lg,
+.containerNavBar-md,
+.containerNavBar-sm,
+.containerNavBar-xl,
+.containerNavBar-xxl {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
 .contactButton {
   background: #fec544 !important;
   color: #070D1B !important;
@@ -52,6 +67,7 @@
 
 @media screen and (min-width: 1745px) and (max-width: 1920px) {
   .container,
+  .containerNavBar
   .container-lg,
   .container-md,
   .container-sm,
@@ -63,6 +79,7 @@
 }
 @media screen and (min-width: 1570px) and (max-width: 1745px) {
     .container,
+    .containerNavBar,
     .container-lg,
     .container-md,
     .container-sm,
@@ -74,6 +91,7 @@
   }
   @media screen and (min-width: 1400px) and (max-width: 1570px) {
     .container,
+    .containerNavBar,
     .container-lg,
     .container-md,
     .container-sm,
@@ -86,13 +104,15 @@
   
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-  .container {
+  .container, 
+  .containerNavBar {
     max-width: 1140px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .container,
+  .containerNavBar,
   .container-lg,
   .container-md,
   .container-sm,
@@ -109,6 +129,10 @@
 
     max-width: 710px;
   }
+  .containerNavBar{
+    width: 100%; 
+    max-width: 100%; 
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
@@ -117,6 +141,10 @@
     width: 100%;
 
     max-width: 550px;
+  }
+  .containerNavBar{
+    width: 100%; 
+    max-width: 100%; 
   }
 }
 .divider2{
