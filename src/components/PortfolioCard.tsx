@@ -5,15 +5,11 @@ import {
   Card,
   CardBody,
   Flex,
-  Heading,
   IconButton,
   Image,
-  ImageProps,
-  SimpleGrid,
   Text,
 } from "@chakra-ui/react";
 
-import React from "react";
 import { FaGithub } from "react-icons/fa";
 interface Portfolio {
   name: string;
@@ -33,13 +29,6 @@ const PortfolioCard = ({ portfolio }: Props) => {
       <Image src={portfolio.image} />
       <CardBody bg="#192135">
         <Box display="flex" justifyContent="space-between">
-          {/* <Box display="flex">
-            {portfolio.techs.map((tech) => (
-              <Badge margin={1} colorScheme="green" variant="subtle">
-                {tech}
-              </Badge>
-            ))}
-          </Box> */}
           <Box>
             <Text color="white">{portfolio.name}</Text>
           </Box>
@@ -75,15 +64,13 @@ const PortfolioCard = ({ portfolio }: Props) => {
             />
           </Flex>
         </Box>
-        <Box display="flex" marginTop={1}>
+        <Box display={{ xl: "inline-flex", lg: "inline-flex" }} marginTop={1}>
           {portfolio.techs.map((tech) => (
             <Badge margin={1} colorScheme="green" variant="solid">
               {tech}
             </Badge>
           ))}
         </Box>
-        {/* <Heading color="white">{portfolio.name} </Heading>
-        <Text color="white">{portfolio.description}</Text> */}
       </CardBody>
     </Card>
   );
