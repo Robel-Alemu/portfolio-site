@@ -1,12 +1,15 @@
 import gamehub from "../assets/Group 3 (2).png";
 // import gamehub from "../assets/gamehubb.png";
+import test from "../assets/final.png";
+import height from "../assets/height.png";
+import n from "../assets/be transparent.png";
 import trivia from "../assets/trivianew2.jpg";
 import bridge from "../assets/bridge.png";
 
 const portfolio = [
   {
     name: "Game Discovery Platform",
-    image: gamehub,
+    image: test,
     techs: ["React", "TypeScript", "Chakra UI", "CSS", "RAWG API"],
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!",
@@ -15,7 +18,7 @@ const portfolio = [
   },
   {
     name: "Trivia Quiz App",
-    image: trivia,
+    image: n,
     techs: ["React", "TypeScript", "Chakra UI", "CSS", "Open Triva API"],
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!",
@@ -24,7 +27,7 @@ const portfolio = [
   },
   {
     name: "Bridge The Gap Ethiopia",
-    image: bridge,
+    image: test,
     techs: ["Wordpress", "Elementor"],
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!",
