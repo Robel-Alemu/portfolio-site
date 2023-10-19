@@ -35,7 +35,7 @@ const SocialMediaModal = () => {
           href={contact.address}
           target="_blank"
           marginLeft={3}
-          colorScheme="telegram"
+          colorScheme="purple"
           //   boxSize="25px"
           size="lg"
           fontSize="25px"

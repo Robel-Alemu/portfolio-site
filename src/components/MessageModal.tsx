@@ -34,8 +34,8 @@ const MessageModal = ({ onClose, message }: Props) => {
       <ModalOverlay bg="rgba(0, 0, 0, 0.7)" />
       <ModalContent bg="#FDFEFF">
         <ModalHeader
-          color="#FDFEFF"
-          bg="#659A8C"
+          color="#070d1b"
+          bg="#FEC544"
           display="flex"
           alignItems="center"
         >
