@@ -56,7 +56,7 @@ const MessageModal = ({ onClose, message }: Props) => {
           <Heading fontSize="md" color="#000">
             {message.message}
           </Heading>
-          {message.status !== 200 ? (
+          {message.status != 200 ? (
             //   <SocialMediaContainer section="contact" />
             <SocialMediaModal />
           ) : (

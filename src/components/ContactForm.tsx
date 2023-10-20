@@ -19,6 +19,7 @@ const ContactForm = () => {
     status: 0,
     message: "",
   });
+  // const [messageResponse, setMessageResponse] = useState();
   const nameRef = useRef<HTMLInputElement | null>(null);
   const emailRef = useRef<HTMLInputElement | null>(null);
   const subjectRef = useRef<HTMLInputElement | null>(null);
@@ -46,11 +47,15 @@ const ContactForm = () => {
     })
       .then((response) => {
         console.log(response.status);
-        setMessageResponse({ ...messageResponse, status: response.status });
+        // setMessageResponse({ ...messageResponse, status: response.status });
         return response.json();
       })
       .then((data) => {
-        setMessageResponse({ ...messageResponse, message: data.message });
+        setMessageResponse({
+          ...messageResponse,
+          status: data.status,
+          message: data.message,
+        });
         setIsModalOpen(true);
         setIsSending(false);
       });
