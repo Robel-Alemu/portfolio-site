@@ -9,8 +9,11 @@ import {
   Image,
   Text,
 } from "@chakra-ui/react";
+import { useState } from "react";
 
 import { FaGithub } from "react-icons/fa";
+import PortfolioDescription from "./PortfolioDescription";
+import PortfolioDetails from "./PortfolioDetails";
 interface Portfolio {
   name: string;
   image: string;
@@ -24,9 +27,20 @@ interface Props {
 }
 
 const PortfolioCard = ({ portfolio }: Props) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  if (isModalOpen)
+    return (
+      <PortfolioDetails
+        portfolio={portfolio}
+        onClose={() => setIsModalOpen(false)}
+      />
+    );
   return (
-    <Card width="100%">
-      <Image src={portfolio.image} />
+    <Card width="100%" onClick={() => setIsModalOpen(true)}>
+      <Image
+        src={portfolio.image}
+        bg="linear-gradient(to bottom, #2d4167, #2a3344)"
+      />
       <CardBody bg="#192135">
         <Box display="flex" justifyContent="space-between">
           <Box>
@@ -66,7 +80,7 @@ const PortfolioCard = ({ portfolio }: Props) => {
         </Box>
         <Box display={{ xl: "inline-flex", lg: "inline-flex" }} marginTop={1}>
           {portfolio.techs.map((tech) => (
-            <Badge margin={1} colorScheme="green" variant="solid">
+            <Badge margin={1} colorScheme="teal" variant="solid">
               {tech}
             </Badge>
           ))}
