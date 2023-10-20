@@ -30,7 +30,10 @@
   }
 
   .card:hover{
-    transform: translateY(-20px)
+    transform: translateY(-20px);
+    box-shadow :3px 3px 4px 1px cadetblue;
+    border-radius: 0;
+  
     /* transform: scale(1.05)  */
   }
 
