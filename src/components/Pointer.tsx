@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../styles/Pointer.css";
+import styles from "../styles/Pointer.module.css";
 import { Box } from "@chakra-ui/react";
 
 const Pointer = () => {
@@ -19,7 +19,7 @@ const Pointer = () => {
 
   return (
     <Box
-      className="pointer"
+      className={styles.pointer}
       style={{ left: position.left, top: position.top }}
     ></Box>
   );
