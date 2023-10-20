@@ -68,3 +68,24 @@
 
 
 
+
+.span {
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(-50%, -50%) translate(774px, 178px);
+    width: 10px;
+    height: 10px;
+    background-color: #8e6f2b;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    position: fixed;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    mix-blend-mode: difference;
+    z-index: 9999;
+
+}
+
+

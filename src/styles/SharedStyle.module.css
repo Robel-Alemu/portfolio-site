@@ -231,3 +231,14 @@ transition: opacity 0.5s cubic-bezier(0.42, 0, 0.58, 1), transform 0.5s cubic-be
   /* animation: slideInFromBottom 4s cubic-bezier(0.42, 0, 0.58, 1) forwards; */
   animation: slideInFromBottom 1s ease-in-out 1s forwards;
 }
+
+
+/* Pointer.css */
+.pointer {
+  width: 20px;
+  height: 20px;
+  background-color: #3498db;
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none; /* Allow clicking through the pointer element */
+}

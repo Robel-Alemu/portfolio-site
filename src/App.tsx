@@ -7,6 +7,8 @@ import Skills from "./sections/Skills";
 import Portfolio from "./sections/Portfolio";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
+import styles from "./styles/Skills.module.css";
+import Pointer from "./components/Pointer";
 
 function App() {
   return (
@@ -36,6 +38,8 @@ function App() {
       </GridItem>
 
       <GridItem area="main" top="80px" position="relative">
+        <span className={styles.span}></span>
+        <Pointer />
         <Introduction />
         <About />
         <Skills />
