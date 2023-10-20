@@ -8,11 +8,13 @@ import {
   Flex,
   Hide,
   Show,
+  Image,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon, PhoneIcon } from "@chakra-ui/icons";
 import NavigationLinks from "./NavigationLinks";
 import styles from "../styles/SharedStyle.module.css";
 import navigation from "../utils/navigation";
+import logo from "../assets/logo2.png";
 
 const NavBar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -39,7 +41,7 @@ const NavBar = () => {
           />
 
           <Box textTransform="uppercase">
-            <Text>Logo</Text>
+            <Image src={logo} />
           </Box>
         </Box>
         <HStack

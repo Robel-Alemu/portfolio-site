@@ -40,7 +40,7 @@ function PortfolioDetails({ onClose, portfolio }: Props) {
         size="xl"
       >
         <ModalOverlay bg="rgba(0, 0, 0, 0.7)" />
-        <ModalContent bg="#192135">
+        <ModalContent bg="#2d3747">
           <Image
             src={portfolio.image}
             bg="linear-gradient(to bottom, white, gray)"
@@ -59,6 +59,7 @@ function PortfolioDetails({ onClose, portfolio }: Props) {
                     href={portfolio.github}
                     target="_blank"
                     as="a"
+                    color="white.200"
                     _hover={{ transform: "scale(1.2)" }}
                     boxSize="20px"
                     size="lg"
@@ -74,6 +75,7 @@ function PortfolioDetails({ onClose, portfolio }: Props) {
                   href={portfolio.address}
                   target="_blank"
                   as="a"
+                  color="white.200"
                   _hover={{ transform: "scale(1.2)" }}
                   boxSize="20px"
                   size="lg"
@@ -102,7 +104,7 @@ function PortfolioDetails({ onClose, portfolio }: Props) {
           <ModalFooter>
             <Button
               color="white"
-              _hover={{ color: "#1a202c" }}
+              _hover={{ bg: "white", color: "#1a202c" }}
               target="_blank"
               as="a"
               href={portfolio.address}

@@ -7,7 +7,7 @@ import SectionHeading from "../components/SectionHeading";
 const Contact = () => {
   return (
     <Container id="Contact">
-      <SectionHeading heading="Contact Me" />
+      <SectionHeading heading="Contact" />
       <SimpleGrid
         columns={{ sm: 1, md: 1, lg: 2, xl: 2 }}
         spacing={10}

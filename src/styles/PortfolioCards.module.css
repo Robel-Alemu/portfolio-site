@@ -30,7 +30,8 @@
   }
 
   .card:hover{
-    transform: scale(1.05) 
+    transform: translateY(-20px)
+    /* transform: scale(1.05)  */
   }
 
 .container .title {

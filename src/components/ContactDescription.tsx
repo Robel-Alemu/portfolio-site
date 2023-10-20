@@ -62,7 +62,7 @@ const ContactDescription = () => {
       </Flex>
 
       <Text fontSize="larger" paddingBottom={2}>
-        Visite my social profile and get connected
+        Visit my social profile and get connected
       </Text>
       <SocialMediaContainer section="contact" />
     </Box>

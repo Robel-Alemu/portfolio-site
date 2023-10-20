@@ -48,6 +48,8 @@ const AboutContent = () => {
                     shared success through the application of technical
                     expertise, making every day a warm welcome to new
                     possibilities.
+                    <br /> <br />
+                    You are welcome in advance for our success to come!
                     <br /> <br /> Eduation&nbsp; :&nbsp;HiLCoE School of
                     computer science and Technology
                   </Text>
