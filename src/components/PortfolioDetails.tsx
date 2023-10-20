@@ -101,7 +101,6 @@ function PortfolioDetails({ onClose, portfolio }: Props) {
 
           <ModalFooter>
             <Button
-              color="white"
               target="_blank"
               as="a"
               href={portfolio.address}
@@ -110,7 +109,7 @@ function PortfolioDetails({ onClose, portfolio }: Props) {
             >
               View Demo
             </Button>
-            <Button colorScheme="cyan" mr={3} onClick={onClose}>
+            <Button colorScheme="teal" mr={3} onClick={onClose}>
               Close
             </Button>
           </ModalFooter>
