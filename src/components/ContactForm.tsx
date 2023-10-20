@@ -39,7 +39,7 @@ const ContactForm = () => {
       message: message,
     };
     console.log(inbox);
-    fetch("http://localhost:8080/api/send-mail", {
+    fetch("https://nodemailer-mocha.vercel.app/api/send-mail", {
       method: "POST",
       body: JSON.stringify(inbox),
       headers: { "Content-Type": "application/json" },
