@@ -40,7 +40,7 @@ function PortfolioDetails({ onClose, portfolio }: Props) {
         size="xl"
       >
         <ModalOverlay bg="rgba(0, 0, 0, 0.7)" />
-        <ModalContent bg="#2d3748">
+        <ModalContent bg="#192135">
           <Image
             src={portfolio.image}
             bg="linear-gradient(to bottom, white, gray)"
@@ -101,6 +101,7 @@ function PortfolioDetails({ onClose, portfolio }: Props) {
 
           <ModalFooter>
             <Button
+              color="white"
               target="_blank"
               as="a"
               href={portfolio.address}
@@ -109,7 +110,7 @@ function PortfolioDetails({ onClose, portfolio }: Props) {
             >
               View Demo
             </Button>
-            <Button colorScheme="blue" mr={3} onClick={onClose}>
+            <Button colorScheme="cyan" mr={3} onClick={onClose}>
               Close
             </Button>
           </ModalFooter>
