@@ -18,7 +18,7 @@ const portfolio = [
     image: trivia,
     techs: ["React", "TypeScript", "Chakra UI", "CSS", "Open Triva API"],
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!",
+      "Trivia quiz app is a quiz game with many different categories to pick from. It calls upon the 'Open Trivia API' to retrieve questions and answers. The game is built in React with TypeScript, and it utilizes 'Chakra UI', a component library used to create React apps. CSS is also used to style elements.",
     address: "https://trivia-quiz-app-six.vercel.app/",
     github: "https://github.com/Robel-Alemu/Trivia-Quiz-App",
   },
@@ -27,7 +27,7 @@ const portfolio = [
     image: bridge,
     techs: ["Wordpress", "Elementor"],
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!",
+      "I have had the honor of volunteering my expertise to develop a website for 'Bridge the Gap Ethiopia,' a distinguished nongovernmental organization (NGO) devoted to uplifting the lives of women, children, and youth in Ethiopia.",
     address: "https://bridgethegapethiopia.com/",
     github: "",
   },
