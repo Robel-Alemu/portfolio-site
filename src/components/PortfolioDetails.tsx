@@ -101,6 +101,8 @@ function PortfolioDetails({ onClose, portfolio }: Props) {
 
           <ModalFooter>
             <Button
+              color="white"
+              _hover={{ color: "#1a202c" }}
               target="_blank"
               as="a"
               href={portfolio.address}

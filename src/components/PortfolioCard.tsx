@@ -14,6 +14,7 @@ import { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import PortfolioDescription from "./PortfolioDescription";
 import PortfolioDetails from "./PortfolioDetails";
+import styles from "../styles/PortfolioCards.module.css";
 interface Portfolio {
   name: string;
   image: string;
@@ -36,7 +37,11 @@ const PortfolioCard = ({ portfolio }: Props) => {
       />
     );
   return (
-    <Card width="100%" onClick={() => setIsModalOpen(true)}>
+    <Card
+      className={styles.card}
+      width="100%"
+      onClick={() => setIsModalOpen(true)}
+    >
       <Image
         src={portfolio.image}
         bg="linear-gradient(to bottom, #2d4167, #2a3344)"

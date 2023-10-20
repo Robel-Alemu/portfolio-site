@@ -9,6 +9,30 @@
   transition: all 0.4s ease-in-out 0s;
 }
 
+.card { 
+  transition: all .4s ease;
+  opacity:0;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:2s;
+  -moz-animation-duration:2s;
+  animation-duration:2s;
+
+  opacity: 100%;
+  color:#FDFEFF !important
+
+  }
+
+  .card:hover{
+    transform: scale(1.05) 
+  }
+
 .container .title {
   color: #1a1a1a;
   text-align: center;
