@@ -61,8 +61,9 @@
 
 }
 .contactButton:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 10px #fec64450;
+
+  box-shadow: 5px 10px 10px #fec64450;
+
 }
 
 

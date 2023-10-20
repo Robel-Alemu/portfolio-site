@@ -17,6 +17,7 @@ const NavigationLinks = ({ children, id }: Props) => {
         opacity: "60%",
         transform: "scale(0.9)",
         bg: "none",
+        transition: "all 0.4s ease !important",
       }}
       href={id}
     >
