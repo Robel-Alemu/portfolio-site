@@ -40,7 +40,7 @@ function PortfolioDetails({ onClose, portfolio }: Props) {
         size="xl"
       >
         <ModalOverlay bg="rgba(0, 0, 0, 0.7)" />
-        <ModalContent>
+        <ModalContent bg="#2d3748">
           <Image
             src={portfolio.image}
             bg="linear-gradient(to bottom, white, gray)"
