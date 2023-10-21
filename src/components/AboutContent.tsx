@@ -8,6 +8,7 @@ import {
 } from "@chakra-ui/react";
 import image from "../assets/about.jpg";
 import styles from "../styles/About.module.css";
+import resume from "../assets/Resume.pdf";
 
 const AboutContent = () => {
   return (
@@ -49,13 +50,20 @@ const AboutContent = () => {
                     expertise, making every day a warm welcome to new
                     possibilities.
                     <br /> <br />
-                    You are welcome in advance for our success to come!
+                    You are most welcome to join me in celebrating our
+                    forthcoming success!
                     <br /> <br /> Eduation&nbsp; :&nbsp;HiLCoE School of
                     computer science and Technology
                   </Text>
                 </Box>
 
-                <Button marginTop="25px" className={styles.downloadButton}>
+                <Button
+                  as="a"
+                  download
+                  href={resume}
+                  marginTop="25px"
+                  className={styles.downloadButton}
+                >
                   Download CV
                 </Button>
               </Box>
