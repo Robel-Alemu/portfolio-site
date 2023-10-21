@@ -2,14 +2,17 @@
 import gamehub from "../assets/game-transparent.webp";
 import trivia from "../assets/trivia-final.webp";
 import bridge from "../assets/bridge.webp";
-
+const myText = `
+  This website is a minimal clone for <a target="_blank" style="color: #007bff; text-decoration: underline;" href="https://www.rawg.io">Rawg.io</a>. 
+  Rawg.io is a community-powered video game discovery platform that offers a comprehensive database of over 350,000 games across multiple platforms. 
+  <br><br> This project is made with React, TypeScript, CSS, and Chakra UI. It retrieves games and associated information via the <a href="https://www.rawg.io/api">RAWG API</a>.
+`;
 const portfolio = [
   {
     name: "Game Discovery Platform",
     image: gamehub,
     techs: ["React", "TypeScript", "Chakra UI", "CSS", "RAWG API"],
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!",
+    description: myText,
     address: "https://game-discovery-platform.vercel.app/",
     github: "https://github.com/Robel-Alemu/game-discovery-platform",
   },

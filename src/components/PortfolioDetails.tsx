@@ -45,7 +45,7 @@ function PortfolioDetails({ onClose, portfolio }: Props) {
             src={portfolio.image}
             bg="linear-gradient(to bottom, white, gray)"
           />
-          <ModalHeader>
+          <ModalHeader paddingBottom="10px">
             {" "}
             <Box display="flex" justifyContent="space-between">
               <Box>
@@ -88,11 +88,9 @@ function PortfolioDetails({ onClose, portfolio }: Props) {
           </ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            {portfolio.description} <br />
-            <Box
-              display={{ xl: "inline-flex", lg: "inline-flex" }}
-              marginTop={2}
-            >
+            <div dangerouslySetInnerHTML={{ __html: portfolio.description }} />{" "}
+            <br />
+            <Box display={{ xl: "inline-flex", lg: "inline-flex" }}>
               {portfolio.techs.map((tech) => (
                 <Badge margin={1} colorScheme="teal" variant="solid">
                   {tech}
