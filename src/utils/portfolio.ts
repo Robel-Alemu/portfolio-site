@@ -1,7 +1,7 @@
 // import gamehub from "../assets/game-final.webp";
 import gamehub from "../assets/game-transparent.webp";
-import trivia from "../assets/trivia-final.webp";
-import bridge from "../assets/bridge.webp";
+import trivia from "../assets/QUIZ-1.webp";
+import bridge from "../assets/BTGE-1.webp";
 const myText = `
   This website is a minimal clone for <a target="_blank" style="color: #007bff; text-decoration: underline;" href="https://www.rawg.io">Rawg.io</a>. 
   Rawg.io is a community-powered video game discovery platform that offers a comprehensive database of over 350,000 games across multiple platforms. 
