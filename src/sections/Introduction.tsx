@@ -81,7 +81,7 @@ const Introduction = () => {
               objectFit="cover"
               height="100%"
               // src={me}
-              src={image}
+              src={me}
             ></Image>
             <SocialMediaContainer section="introduction" />
           </Box>
