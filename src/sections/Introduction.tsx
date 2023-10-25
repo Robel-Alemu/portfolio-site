@@ -1,7 +1,8 @@
 import { Box, Button, Heading, Text } from "@chakra-ui/react";
 import header from "../assets/header-bg.jpg";
-import me from "../assets/me2.png";
-import image from "../assets/hero-img.jpg";
+// import me from "../assets/me2.png";
+import me from "../assets/CP8A7954.jpg";
+import image from "../assets/R.jpg";
 import { Image } from "@chakra-ui/react";
 import { Hide } from "@chakra-ui/react";
 import styles from "../styles/SharedStyle.module.css";
@@ -80,8 +81,8 @@ const Introduction = () => {
               width="100%"
               objectFit="cover"
               height="100%"
+              src={image}
               // src={me}
-              src={me}
             ></Image>
             <SocialMediaContainer section="introduction" />
           </Box>

@@ -2,6 +2,10 @@ import react from "../assets/react-ff.png";
 import node from "../assets/node.png";
 import javascript from "../assets/javascript.png";
 import typescript from "../assets/Ts.png";
+import express from "../assets/express.png";
+import mongoDb from "../assets/mongodb.png";
+import postgresql from "../assets/postgresql.png";
+import sqlServer from "../assets/sqlserver.png";
 import csharp from "../assets/csharp.png";
 import wordpress from "../assets/wp.png";
 import mysql from "../assets/mysqll.png";
@@ -16,10 +20,14 @@ const skills = [
   { name: "Node Js", logo: node, display: "flex" },
   { name: "JavaScript", logo: javascript, display: "flex" },
   { name: "TypeScript", logo: typescript, display: "flex" },
-  { name: "C#", logo: csharp, display: "flex" },
+  { name: "Express Js", logo: express, display: "flex" },
+  { name: "MongoDB", logo: mongoDb, display: "flex" },
+  { name: "PostgreSQL", logo: postgresql, display: "flex" },
   { name: "Wordpress", logo: wordpress, display: "flex" },
-  { name: "MySQL", logo: mysql, display: "flex" },
-  { name: "AWS", logo: aws, display: "flex" },
+  { name: "C#", logo: csharp, display: "none" },
+  { name: "MS-SQL server", logo: sqlServer, display: "none" },
+  { name: "MySQL", logo: mysql, display: "none" },
+  { name: "AWS", logo: aws, display: "none" },
   { name: "Firebase", logo: firebase, display: "none" },
   { name: "Git", logo: git, display: "none" },
   { name: "Bootstrap", logo: bootstrap, display: "none" },
