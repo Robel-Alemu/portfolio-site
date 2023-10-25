@@ -6,7 +6,7 @@ import {
   UnorderedList,
   Button,
 } from "@chakra-ui/react";
-import image from "../assets/about.jpg";
+import image from "../assets/about-me_.webp";
 import styles from "../styles/About.module.css";
 import resume from "../assets/Resume.pdf";
 
@@ -34,12 +34,13 @@ const AboutContent = () => {
                 {/* <Text className={styles.subtitle}>Front-End Developer</Text> */}
                 <Box className={styles.aboutText}>
                   <Text color="#a9adb8">
-                    I am a solution-driven Front-End developer with a two-year
+                    I am a solution-driven Full-Stack developer with a two-year
                     journey in web development, valued for thriving in
                     close-knit and collaborative workspaces. <br /> <br />
                     Proficient in the art of React with TypeScript, JavaScript,
-                    and a strong grasp of back-end technologies like Node.js and
-                    Express.js. My passion lies in crafting innovative
+                    and a strong grasp of back-end technologies like Node.js,
+                    Express.js, MongoDB, PostgreSQL and other backend
+                    technologies. My passion lies in crafting innovative
                     solutions, underpinned by unwavering dedication, an
                     organizational flair, and natural talent for reasoning.{" "}
                     <br />

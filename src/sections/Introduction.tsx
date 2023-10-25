@@ -1,8 +1,6 @@
 import { Box, Button, Heading, Text } from "@chakra-ui/react";
 import header from "../assets/header-bg.jpg";
-// import me from "../assets/me2.png";
-import me from "../assets/CP8A7954.jpg";
-import image from "../assets/R.jpg";
+import me from "../assets/me_.webp";
 import { Image } from "@chakra-ui/react";
 import { Hide } from "@chakra-ui/react";
 import styles from "../styles/SharedStyle.module.css";
@@ -60,7 +58,7 @@ const Introduction = () => {
               opacity="70%"
               fontSize="36px"
             >
-              Front-End Developer
+              Full-Stack Developer
             </Text>
             <Button as="a" href="#Contact" className={styles.contactButton}>
               Contact Me
@@ -81,8 +79,8 @@ const Introduction = () => {
               width="100%"
               objectFit="cover"
               height="100%"
-              src={image}
-              // src={me}
+              // src={image}
+              src={me}
             ></Image>
             <SocialMediaContainer section="introduction" />
           </Box>

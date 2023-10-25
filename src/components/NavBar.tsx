@@ -14,7 +14,7 @@ import { HamburgerIcon, CloseIcon, PhoneIcon } from "@chakra-ui/icons";
 import NavigationLinks from "./NavigationLinks";
 import styles from "../styles/SharedStyle.module.css";
 import navigation from "../utils/navigation";
-import logo from "../assets/logo2.png";
+import logo from "../assets/logo-.png";
 
 const NavBar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
