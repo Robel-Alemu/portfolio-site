@@ -83,7 +83,7 @@ const PortfolioCard = ({ portfolio }: Props) => {
             />
           </Flex>
         </Box>
-        <Box display={{ xl: "inline-flex", lg: "inline-flex" }} marginTop={1}>
+        <Box marginTop={1}>
           {portfolio.techs.map((tech) => (
             <Badge margin={1} colorScheme="teal" variant="solid">
               {tech}

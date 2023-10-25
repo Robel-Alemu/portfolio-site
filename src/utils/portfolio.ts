@@ -2,6 +2,7 @@
 import gamehub from "../assets/game-transparent.webp";
 import trivia from "../assets/QUIZ-1.webp";
 import bridge from "../assets/BTGE-1.webp";
+import soon from "../assets/underConstruction.png";
 const myText = `
   This website is a minimal clone for <a target="_blank" style="color: #007bff; text-decoration: underline;" href="https://www.rawg.io">Rawg.io</a>. 
   Rawg.io is a community-powered video game discovery platform that offers a comprehensive database of over 350,000 games across multiple platforms. 
@@ -34,22 +35,24 @@ const portfolio = [
     address: "https://bridgethegapethiopia.com/",
     github: "",
   },
-  // {
-  //   name: "Medi Alert(Emergency Alert)",
-  //   image: gamehub,
-  //   techs: [
-  //     "React Native",
-  //     "Node.js",
-  //     "Express.js",
-  //     "BootStrap",
-  //     "PostgreSQL",
-  //     "Navigator API",
-  //     "Twilo",
-  //   ],
-  //   description:
-  //     "MediAlert is a life-saving mobile application designed to digitalize emergency health cases and connect individuals in need of urgent medical attention with the appropriate resources quickly. The app aims to streamline the emergency response process, reduce response times, and save lives by providing real-time access to medical assistance by sending alerts to health organizations and emergency contacts.",
-  //   address: "#",
-  // },
+  {
+    name: "Medi Alert(Emergency Alert)",
+    image: soon,
+    techs: [
+      "React Native",
+      "React",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "BootStrap",
+      "Navigator API",
+      "Twilo",
+    ],
+    description:
+      "MediAlert is a life-saving mobile and web application designed to digitalize emergency health cases and connect individuals in need of urgent medical attention with the appropriate resources quickly. The app aims to streamline the emergency response process, reduce response times, and save lives by providing real-time access to medical assistance by sending alerts to health organizations and emergency contacts.",
+    address: "#",
+    github: "",
+  },
   // {
   //   name: "Medi Alert(Emergency Alert)",
   //   image: gamehub,

@@ -90,7 +90,7 @@ function PortfolioDetails({ onClose, portfolio }: Props) {
           <ModalBody>
             <div dangerouslySetInnerHTML={{ __html: portfolio.description }} />{" "}
             <br />
-            <Box display={{ xl: "inline-flex", lg: "inline-flex" }}>
+            <Box>
               {portfolio.techs.map((tech) => (
                 <Badge margin={1} colorScheme="teal" variant="solid">
                   {tech}
