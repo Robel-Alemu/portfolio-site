@@ -31,7 +31,7 @@ const SocialMediaContainer = ({ section }: Props) => {
           </SocialMediaLinks>
           <SocialMediaLinks
             iconName="Twitter"
-            address="https://x.com/RobelJap?t=HD0iDXeh1dH1u_0TTXzFgQ&s=09"
+            address="https://x.com/robel_alemu_?t=jo0yDvhfu4Gt0ybbBgFv9Q&s=09"
           >
             <FaXTwitter className={styles.iconProperty} />
           </SocialMediaLinks>
