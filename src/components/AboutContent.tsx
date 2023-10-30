@@ -8,7 +8,7 @@ import {
 } from "@chakra-ui/react";
 import image from "../assets/about-me_.webp";
 import styles from "../styles/About.module.css";
-import resume from "../assets/resume_.pdf";
+import resume from "../assets/Robel-Alemu-resume.pdf";
 
 const AboutContent = () => {
   return (
