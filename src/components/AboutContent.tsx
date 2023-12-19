@@ -34,10 +34,9 @@ const AboutContent = () => {
                 {/* <Text className={styles.subtitle}>Front-End Developer</Text> */}
                 <Box className={styles.aboutText}>
                   <Text color="#a9adb8">
-                    I am a solution-driven Full-Stack developer with a
-                    three-year journey in web applications development, valued
-                    for thriving in close-knit and collaborative workspaces.{" "}
-                    <br /> <br />
+                    I am a solution-driven Full-Stack developer with 2+ years
+                    journey in web applications development, valued for thriving
+                    in close-knit and collaborative workspaces. <br /> <br />
                     Proficient in the art of React with TypeScript, JavaScript,
                     and a strong grasp of back-end technologies like Node.js,
                     Express.js, MongoDB, PostgreSQL and other backend
