@@ -14,6 +14,8 @@ import git from "../assets/git.png";
 import firebase from "../assets/firebase.png";
 import chakra from "../assets/chakra.png";
 import bootstrap from "../assets/bootstrap2.png";
+import reactNative from "../assets/reactnative.png";
+import tailwind from "../assets/tailwind2.png";
 
 const skills = [
   { name: "React", logo: react, display: "flex" },
@@ -24,6 +26,7 @@ const skills = [
   { name: "MongoDB", logo: mongoDb, display: "flex" },
   { name: "PostgreSQL", logo: postgresql, display: "flex" },
   { name: "Wordpress", logo: wordpress, display: "flex" },
+  { name: "React Native", logo: reactNative, display: "none" },
   { name: "C#", logo: csharp, display: "none" },
   { name: "MS-SQL server", logo: sqlServer, display: "none" },
   { name: "MySQL", logo: mysql, display: "none" },
@@ -32,6 +35,7 @@ const skills = [
   { name: "Git", logo: git, display: "none" },
   { name: "Bootstrap", logo: bootstrap, display: "none" },
   { name: "Chakra UI", logo: chakra, display: "none" },
+  { name: "Tailwind", logo: tailwind, display: "none" },
 ];
 
 export default skills;

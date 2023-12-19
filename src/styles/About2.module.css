@@ -5,6 +5,7 @@
     margin-bottom: 41px;
     opacity: 0; /* Initially hidden */
   animation: revealContent 1s ease-in-out 1s forwards; /* Animation name, duration, delay */
+  font-family: Arial, Helvetica, sans-serif;
 }
 @keyframes revealContent {
     0% {

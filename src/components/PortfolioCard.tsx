@@ -44,6 +44,7 @@ const PortfolioCard = ({ portfolio }: Props) => {
     >
       <Image
         src={portfolio.image}
+        
         bg="linear-gradient(to bottom, #2d4167, #2a3344)"
       />
       <CardBody bg="#192135">
