@@ -38,7 +38,7 @@ function App() {
       </GridItem>
 
       <GridItem area="main" top="80px" position="relative">
-        <Pointer />
+        {/* <Pointer /> */}
         <Introduction />
         <About />
         <Skills />

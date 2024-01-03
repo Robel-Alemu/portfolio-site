@@ -16,7 +16,7 @@
     transform: translate(-50%,-50%);
     mix-blend-mode: difference;
     z-index: 9999;
-    transition: all 0.15s; 
+    transition: all 0.1s; 
 
   }
   
